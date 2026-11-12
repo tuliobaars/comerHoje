@@ -1,0 +1,32 @@
+Package: comerHoje
+Title: Cozinha Sem Desperdício: Estoque, Validades e Plano de Refeições
+Version: 2.0.2
+Authors@R: person("comerHoje", "autores", role = c("aut", "cre"), email = "comerhoje@example.org")
+Description: Aplicativo para casas brasileiras: registra cada embalagem com a sua validade (lida da
+    foto do rótulo no próprio celular), avisa o que vence antes, sugere refeições que aproveitam esses
+    itens e espelha estoque e lista de compras numa Planilha Google. Um front end, três entregas
+    (Taiga): app Shiny (dados em SQLite), documento Quarto e um arquivo HTML autônomo.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: pt-BR
+Depends: R (>= 4.2)
+Imports:
+    shiny (>= 1.8.0),
+    htmltools,
+    jsonlite,
+    DBI,
+    RSQLite,
+    stats,
+    tools,
+    utils
+Suggests:
+    httr2,
+    googlesheets4,
+    ompr,
+    ompr.roi,
+    ROI.plugin.glpk,
+    testthat (>= 3.0.0),
+    pkgload
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1

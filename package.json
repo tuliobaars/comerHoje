@@ -1,0 +1,19 @@
+{
+  "name": "comerhoje-frontend",
+  "private": true,
+  "description": "comerHoje front end build (Taiga delivery model): one source in srcjs/ -> Shiny, Quarto and standalone HTML. Also the test tools (webR for the R code, Playwright for the browser).",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "build:ocr-html": "node tools/build.mjs --html-ocr",
+    "test": "node tests/js/run_golden.js && node tools/webr/run.mjs tests/webr/run_all.R --mount=R:/pkg/R --mount=inst:/pkg/inst --mount=tests:/pkg/tests"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/jetbrains-mono": "5.2.8",
+    "@gutenye/ocr-models": "1.4.2",
+    "lucide-static": "1.62.0",
+    "onnxruntime-web": "1.30.0",
+    "webr": "0.6.0",
+    "zxing-wasm": "3.1.4"
+  }
+}

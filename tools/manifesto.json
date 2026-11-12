@@ -1,0 +1,672 @@
+{
+"arquivos": {
+".Rbuildignore": {
+"bytes": 398,
+"sha256": "5b2dd0d2a2b4f78502cf"
+},
+".dockerignore": {
+"bytes": 102,
+"sha256": "7d80e2847e970f2e347f"
+},
+".env.exemplo": {
+"bytes": 673,
+"sha256": "8565798c4f9587d3f103"
+},
+".github/workflows/ci.yml": {
+"bytes": 1636,
+"sha256": "9db30063e23e4985f8fe"
+},
+".gitignore": {
+"bytes": 316,
+"sha256": "62bda9bfea8311067c1d"
+},
+"DESCRIPTION": {
+"bytes": 994,
+"sha256": "65f66e51444cf2b0b9d5"
+},
+"Dockerfile": {
+"bytes": 1447,
+"sha256": "cb12eb5caf6547f9fe0a"
+},
+"LICENSE": {
+"bytes": 47,
+"sha256": "4a102ced52c4d68ac828"
+},
+"NEWS.md": {
+"bytes": 4678,
+"sha256": "87a7c3aa375d38a6e26d"
+},
+"R/app.R": {
+"bytes": 10476,
+"sha256": "4258fe5d25de7e508e64"
+},
+"R/comerHoje-package.R": {
+"bytes": 839,
+"sha256": "d10b2a9b3f358d0b7e5a"
+},
+"R/core_codigos.R": {
+"bytes": 5408,
+"sha256": "7e2fbedaf178de920024"
+},
+"R/core_datas.R": {
+"bytes": 10295,
+"sha256": "50f45267279e9d0ab796"
+},
+"R/core_planejador.R": {
+"bytes": 3894,
+"sha256": "74253a1cc86ad257ab46"
+},
+"R/core_sync.R": {
+"bytes": 3471,
+"sha256": "540ba14eed0a57ba81a4"
+},
+"R/core_texto.R": {
+"bytes": 1334,
+"sha256": "997fe5c903fd5ca58dd8"
+},
+"R/core_unidades.R": {
+"bytes": 1715,
+"sha256": "b332d8c519938dcf10ee"
+},
+"R/core_validade.R": {
+"bytes": 2075,
+"sha256": "c2a15541b6ac5a9cb73f"
+},
+"R/exportar.R": {
+"bytes": 4278,
+"sha256": "d8c8334649e06cc5cb48"
+},
+"R/foto_exemplo.R": {
+"bytes": 4350,
+"sha256": "2df8f02ed4c40715babf"
+},
+"R/metadados.R": {
+"bytes": 10643,
+"sha256": "53f0dbe3f96567610c8d"
+},
+"R/nfce_sc.R": {
+"bytes": 5080,
+"sha256": "c4f382593fcd2e4137c6"
+},
+"R/operacoes.R": {
+"bytes": 7068,
+"sha256": "7d387b2d4b872299270d"
+},
+"R/planilha.R": {
+"bytes": 12893,
+"sha256": "58d4bda1a47ab81a7c9d"
+},
+"R/plano_servidor.R": {
+"bytes": 6598,
+"sha256": "92107eb60d55c9df5075"
+},
+"R/produtos.R": {
+"bytes": 2056,
+"sha256": "a00a0260c4d24dbf9012"
+},
+"R/repo_memoria.R": {
+"bytes": 2558,
+"sha256": "bc601689d0a3996b8f9f"
+},
+"R/repo_sqlite.R": {
+"bytes": 11306,
+"sha256": "e1ae5ea9c953d8b6f76f"
+},
+"R/visao.R": {
+"bytes": 7036,
+"sha256": "c2b8811f7514d7c531f3"
+},
+"README.md": {
+"bytes": 11132,
+"sha256": "c9a86089355add846e02"
+},
+"app.R": {
+"bytes": 552,
+"sha256": "15885b6c0398d3bbf402"
+},
+"data-raw/catalogo_md_para_csv.py": {
+"bytes": 5793,
+"sha256": "275f0b3285e0d7250128"
+},
+"docs/ARCHITECTURE.md": {
+"bytes": 47719,
+"sha256": "2b67e1f5b0e56a4d8afd"
+},
+"docs/DESIGN.md": {
+"bytes": 7552,
+"sha256": "c3cc539bf143e29e16be"
+},
+"docs/features/comparacao-lumen-neue.jpg": {
+"bytes": 856557,
+"sha256": "d4ad701799ccc813d2ee"
+},
+"docs/features/lumen-claro-desktop-ajustes.jpg": {
+"bytes": 464431,
+"sha256": "1e3d4913ef29ce8c46e9"
+},
+"docs/features/lumen-claro-desktop-compras.jpg": {
+"bytes": 215338,
+"sha256": "281f674f9c32205696b2"
+},
+"docs/features/lumen-claro-desktop-escanear.jpg": {
+"bytes": 475161,
+"sha256": "c3ae7e6134581a20f752"
+},
+"docs/features/lumen-claro-desktop-estoque.jpg": {
+"bytes": 347094,
+"sha256": "543ada65c2ebe304518b"
+},
+"docs/features/lumen-claro-desktop-inicio.jpg": {
+"bytes": 456306,
+"sha256": "65e5aeedda2a99226f72"
+},
+"docs/features/lumen-claro-desktop-lote.jpg": {
+"bytes": 248949,
+"sha256": "cf32f5aca213d7df276a"
+},
+"docs/features/lumen-claro-desktop-plano.jpg": {
+"bytes": 328288,
+"sha256": "f0a29584894c4ae0f5bc"
+},
+"docs/features/lumen-claro-iphone-ajustes.jpg": {
+"bytes": 159653,
+"sha256": "92b17c065c87442a0b20"
+},
+"docs/features/lumen-claro-iphone-compras.jpg": {
+"bytes": 115387,
+"sha256": "a954127bf08a2ceb1f61"
+},
+"docs/features/lumen-claro-iphone-escanear.jpg": {
+"bytes": 182120,
+"sha256": "ef3fe373ccc5c89232e5"
+},
+"docs/features/lumen-claro-iphone-estoque.jpg": {
+"bytes": 195436,
+"sha256": "a7fa69e2e7f32b2a839e"
+},
+"docs/features/lumen-claro-iphone-inicio.jpg": {
+"bytes": 204583,
+"sha256": "002f97a6dab6c7f3f518"
+},
+"docs/features/lumen-claro-iphone-lote.jpg": {
+"bytes": 137770,
+"sha256": "b4fb2b3877b28e594085"
+},
+"docs/features/lumen-claro-iphone-plano.jpg": {
+"bytes": 172944,
+"sha256": "2dc9806465facfb78efd"
+},
+"docs/features/lumen-escuro-desktop-estoque.jpg": {
+"bytes": 341408,
+"sha256": "4a3d92fd6cff42989b67"
+},
+"docs/features/lumen-escuro-desktop-inicio.jpg": {
+"bytes": 445481,
+"sha256": "b50eb5a3b1e81523934e"
+},
+"docs/features/lumen-escuro-iphone-estoque.jpg": {
+"bytes": 197057,
+"sha256": "d08f4e616e3f19a8361f"
+},
+"docs/features/lumen-escuro-iphone-inicio.jpg": {
+"bytes": 201620,
+"sha256": "d911180f0789c1e866d7"
+},
+"docs/features/manifest.json": {
+"bytes": 13327,
+"sha256": "4b30710fb1a030ce21ec"
+},
+"docs/features/neue-claro-desktop-ajustes.jpg": {
+"bytes": 629810,
+"sha256": "6e73e700e00c98eb2d95"
+},
+"docs/features/neue-claro-desktop-comandos.jpg": {
+"bytes": 390055,
+"sha256": "37c04481c6b6a75a2c63"
+},
+"docs/features/neue-claro-desktop-compras.jpg": {
+"bytes": 353018,
+"sha256": "f783407cf26586cc4b80"
+},
+"docs/features/neue-claro-desktop-escanear.jpg": {
+"bytes": 554421,
+"sha256": "7f54106e1a0e58213927"
+},
+"docs/features/neue-claro-desktop-estoque.jpg": {
+"bytes": 410426,
+"sha256": "c7fd992ec4f136050ca8"
+},
+"docs/features/neue-claro-desktop-inicio.jpg": {
+"bytes": 476408,
+"sha256": "cceda7a9bf9f6daa1107"
+},
+"docs/features/neue-claro-desktop-lote.jpg": {
+"bytes": 451840,
+"sha256": "df0299c9565e93b92230"
+},
+"docs/features/neue-claro-desktop-plano.jpg": {
+"bytes": 464061,
+"sha256": "6c76bd7d1022cdfa15a5"
+},
+"docs/features/neue-claro-iphone-ajustes.jpg": {
+"bytes": 170163,
+"sha256": "acec61946cd0fdf3f4e6"
+},
+"docs/features/neue-claro-iphone-compras.jpg": {
+"bytes": 138493,
+"sha256": "dcd569f1bdc1e6f50936"
+},
+"docs/features/neue-claro-iphone-escanear.jpg": {
+"bytes": 204977,
+"sha256": "03720236b257ca254737"
+},
+"docs/features/neue-claro-iphone-estoque.jpg": {
+"bytes": 234477,
+"sha256": "59df50f482937c317e1a"
+},
+"docs/features/neue-claro-iphone-inicio.jpg": {
+"bytes": 212816,
+"sha256": "f00bf612efe081b796c2"
+},
+"docs/features/neue-claro-iphone-lote.jpg": {
+"bytes": 167756,
+"sha256": "e7b8032dc7825cbca7d9"
+},
+"docs/features/neue-claro-iphone-plano.jpg": {
+"bytes": 196969,
+"sha256": "c821df6cb2b38eee44a9"
+},
+"docs/features/neue-escuro-desktop-estoque.jpg": {
+"bytes": 401224,
+"sha256": "171d0be15fde9e96d5df"
+},
+"docs/features/neue-escuro-desktop-inicio.jpg": {
+"bytes": 456453,
+"sha256": "dbe94b5723ff81a47118"
+},
+"docs/features/neue-escuro-iphone-estoque.jpg": {
+"bytes": 235569,
+"sha256": "28f559b2552feecc1e30"
+},
+"docs/features/neue-escuro-iphone-inicio.jpg": {
+"bytes": 207340,
+"sha256": "dbf838310bc50c2e5034"
+},
+"docs/historico/ARCHITECTURE-v1.md": {
+"bytes": 233955,
+"sha256": "735b2c4ad61988b1694d"
+},
+"inst/apps-script/Code.gs": {
+"bytes": 4312,
+"sha256": "32a2136d87b09b5322fa"
+},
+"inst/extdata/categorias.csv": {
+"bytes": 679,
+"sha256": "7912d714ccd91d53a474"
+},
+"inst/extdata/conversoes.csv": {
+"bytes": 1227,
+"sha256": "9c9db5c07a37be744762"
+},
+"inst/extdata/ingredientes.csv": {
+"bytes": 16789,
+"sha256": "193abc5cc51aaf609149"
+},
+"inst/extdata/receita_ingredientes.csv": {
+"bytes": 3627,
+"sha256": "3392764083731441a7d9"
+},
+"inst/extdata/receitas.csv": {
+"bytes": 1044,
+"sha256": "53b2b839e0d77293e3a1"
+},
+"inst/extdata/schema.sql": {
+"bytes": 8006,
+"sha256": "091c12c1d1e523ffdc72"
+},
+"inst/extdata/unidades.csv": {
+"bytes": 1305,
+"sha256": "e18de42ccf6ed325b1c0"
+},
+"inst/quarto/comerhoje.qmd": {
+"bytes": 929,
+"sha256": "92a0555854752bc7fd0c"
+},
+"package-lock.json": {
+"bytes": 58008,
+"sha256": "c0875f5adb723642737f"
+},
+"package.json": {
+"bytes": 775,
+"sha256": "51c9dc43cbd4f10a8a05"
+},
+"references/geladeira.jpeg": {
+"bytes": 3885062,
+"sha256": "31c07d5342f4869e739c"
+},
+"references/leite.jpeg": {
+"bytes": 1204567,
+"sha256": "c34d17a9343da876d578"
+},
+"references/molho_tomate.jpeg": {
+"bytes": 1500152,
+"sha256": "ca1a26092074d1c01234"
+},
+"references/nhoque.jpeg": {
+"bytes": 1554250,
+"sha256": "a33b74916dca56fc3511"
+},
+"references/porco.jpeg": {
+"bytes": 1953782,
+"sha256": "0b61e72cb8e29638a2f8"
+},
+"references/porco2.jpeg": {
+"bytes": 1468375,
+"sha256": "b8133e3ac0a726fd301f"
+},
+"srcjs/app/00-base.js": {
+"bytes": 4557,
+"sha256": "50909249f1fb89fc6da5"
+},
+"srcjs/app/10-dados.js": {
+"bytes": 3252,
+"sha256": "465e998e3410e26034bd"
+},
+"srcjs/app/20-loja.js": {
+"bytes": 7050,
+"sha256": "a3d722e06f338bf41bf1"
+},
+"srcjs/app/30-transporte.js": {
+"bytes": 5113,
+"sha256": "34af1ae5854a54f26bc0"
+},
+"srcjs/app/40-foto.js": {
+"bytes": 6141,
+"sha256": "6b7163191d039cae087b"
+},
+"srcjs/app/50-ui.js": {
+"bytes": 9024,
+"sha256": "5f762039ccbc6c84017a"
+},
+"srcjs/app/60-inicio.js": {
+"bytes": 8946,
+"sha256": "6172ff22519c7e79efd4"
+},
+"srcjs/app/61-estoque.js": {
+"bytes": 14451,
+"sha256": "08e382a1bc0ac3d07570"
+},
+"srcjs/app/62-plano.js": {
+"bytes": 9334,
+"sha256": "7646098732cf361f034c"
+},
+"srcjs/app/63-compras.js": {
+"bytes": 4457,
+"sha256": "7b3b2887f3a041fbb88b"
+},
+"srcjs/app/64-ajustes.js": {
+"bytes": 9968,
+"sha256": "a37961564f7500adcc6f"
+},
+"srcjs/app/70-escanear.js": {
+"bytes": 26664,
+"sha256": "a160757cc4c4bfc2176e"
+},
+"srcjs/app/80-extras.js": {
+"bytes": 15249,
+"sha256": "d5baa6e53bbf28f132c3"
+},
+"srcjs/app/90-boot.js": {
+"bytes": 1320,
+"sha256": "22aefc2d1b436fb131ea"
+},
+"srcjs/core/comerhoje-core.js": {
+"bytes": 20205,
+"sha256": "d8dd94d4fd3c8e96f598"
+},
+"srcjs/css/00-base.css": {
+"bytes": 26477,
+"sha256": "dc5300f499bd6307fe35"
+},
+"srcjs/css/10-lumen.css": {
+"bytes": 9010,
+"sha256": "5d8648392e3439fedf7b"
+},
+"srcjs/css/20-neue.css": {
+"bytes": 11119,
+"sha256": "23b251b3c312a50edb76"
+},
+"srcjs/ocr/leitor-rotulo.js": {
+"bytes": 6375,
+"sha256": "0a38f85dc0c4b31f5225"
+},
+"srcjs/ocr/motor-ocr.js": {
+"bytes": 11782,
+"sha256": "88f188faf87d1fe1b2b2"
+},
+"tests/e2e/bancada-shiny/cliente.html": {
+"bytes": 1514,
+"sha256": "6c1a713a4b725e9964fb"
+},
+"tests/e2e/bancada-shiny/servidor.html": {
+"bytes": 3113,
+"sha256": "b784d39e4cf908ef5876"
+},
+"tests/e2e/bancada-shiny/stubs-node.js": {
+"bytes": 310,
+"sha256": "1d871d25b03969b49e60"
+},
+"tests/e2e/test_contraste.py": {
+"bytes": 3642,
+"sha256": "38854dfa6bfd39f4fdc5"
+},
+"tests/e2e/test_html.py": {
+"bytes": 4945,
+"sha256": "59055c2cd2eb6702cba5"
+},
+"tests/e2e/test_leitura.py": {
+"bytes": 4095,
+"sha256": "26df01c53f40bd25e1f8"
+},
+"tests/e2e/test_protocolo_shiny.py": {
+"bytes": 5836,
+"sha256": "91be0e746dec9e9c5f1c"
+},
+"tests/fixtures/fotos/qr_nfce_sc_sintetico.jpg": {
+"bytes": 80720,
+"sha256": "8d23a79c7233db9fc809"
+},
+"tests/fixtures/fotos/sintetica_com_gps.jpg": {
+"bytes": 1569,
+"sha256": "2e719b8cfc3b4ceac2c5"
+},
+"tests/fixtures/golden_codigos.json": {
+"bytes": 1900,
+"sha256": "a8f11cb34eb170fc72a7"
+},
+"tests/fixtures/golden_datas.json": {
+"bytes": 8006,
+"sha256": "cbc4f0effea72f34b733"
+},
+"tests/fixtures/golden_operacoes.json": {
+"bytes": 10084,
+"sha256": "0f5960e84e35f50df810"
+},
+"tests/fixtures/golden_planner.json": {
+"bytes": 2013,
+"sha256": "0fcb39296587a82a87c4"
+},
+"tests/fixtures/golden_sync.json": {
+"bytes": 7476,
+"sha256": "204b7049114cc52f5470"
+},
+"tests/fixtures/leitor_mini/base.html": {
+"bytes": 258,
+"sha256": "2a938a20298afa041cf0"
+},
+"tests/fixtures/leitor_mini/esperado.html": {
+"bytes": 761,
+"sha256": "bd3ccb3f94eaa79727cd"
+},
+"tests/fixtures/leitor_mini/ocr.json": {
+"bytes": 1437,
+"sha256": "814a34f840a8bb9630d4"
+},
+"tests/fixtures/nfce/sintetica_layout_comum.html": {
+"bytes": 1516,
+"sha256": "9c7f9de28103c6ea9044"
+},
+"tests/js/run_golden.js": {
+"bytes": 3298,
+"sha256": "7b3f776105173673cf4f"
+},
+"tests/js/test_apps_script.js": {
+"bytes": 5434,
+"sha256": "54a6865bfbb536386ee1"
+},
+"tests/js/test_com_leitor.mjs": {
+"bytes": 2295,
+"sha256": "142a7dd53a356b254957"
+},
+"tests/sql/test_sqlite.py": {
+"bytes": 6351,
+"sha256": "7daef7131c36449ff019"
+},
+"tests/testthat.R": {
+"bytes": 235,
+"sha256": "09d85e80d5ba116f237b"
+},
+"tests/testthat/helper-fixtures.R": {
+"bytes": 226,
+"sha256": "f30bd5e98486e4c6817b"
+},
+"tests/testthat/test-catalogo.R": {
+"bytes": 1564,
+"sha256": "98c8dd4ce7b9d8cb7419"
+},
+"tests/testthat/test-codigos.R": {
+"bytes": 996,
+"sha256": "b7edaf2c9d18868f1d4c"
+},
+"tests/testthat/test-datas.R": {
+"bytes": 892,
+"sha256": "3e2ea7ae0f632ade3693"
+},
+"tests/testthat/test-exportar.R": {
+"bytes": 2317,
+"sha256": "eaa926bce5040c030b87"
+},
+"tests/testthat/test-metadados.R": {
+"bytes": 2100,
+"sha256": "07affa0de3d6a1dad429"
+},
+"tests/testthat/test-nfce.R": {
+"bytes": 1224,
+"sha256": "22209ac25bab199415e0"
+},
+"tests/testthat/test-operacoes.R": {
+"bytes": 3072,
+"sha256": "ad1a39109152bcbd09ec"
+},
+"tests/testthat/test-planejador.R": {
+"bytes": 895,
+"sha256": "454e668e1cd27f6d655d"
+},
+"tests/testthat/test-protocolo.R": {
+"bytes": 1212,
+"sha256": "bad3725917024cf8d1f3"
+},
+"tests/testthat/test-repo_sqlite.R": {
+"bytes": 2260,
+"sha256": "6f3e2b66318161114cf6"
+},
+"tests/testthat/test-sync.R": {
+"bytes": 809,
+"sha256": "126690f6beb02bb9e737"
+},
+"tests/testthat/test-visao.R": {
+"bytes": 1072,
+"sha256": "0037a68c2f22c02335b1"
+},
+"tests/webr/check_rd.R": {
+"bytes": 5148,
+"sha256": "b73070331e1f13e493cd"
+},
+"tests/webr/dbi_node_sqlite.R": {
+"bytes": 8458,
+"sha256": "096b8fdf36ccc061e737"
+},
+"tests/webr/run_all.R": {
+"bytes": 1257,
+"sha256": "9f4fd4bfff5cc3cd566d"
+},
+"tests/webr/shim.R": {
+"bytes": 6872,
+"sha256": "c8038bf69d1201f2e12a"
+},
+"tools/__pycache__/gerar_man.cpython-312.pyc": {
+"bytes": 20235,
+"sha256": "19c63d8071da15f44817"
+},
+"tools/__pycache__/manifesto.cpython-312.pyc": {
+"bytes": 6641,
+"sha256": "79e3c5d7445bae6bbe7b"
+},
+"tools/build.mjs": {
+"bytes": 11092,
+"sha256": "22feef8f4bba265cb6b2"
+},
+"tools/deploy/shinyapps.R": {
+"bytes": 1089,
+"sha256": "652137ecb72dd3fc7d07"
+},
+"tools/gerar_fixtures.mjs": {
+"bytes": 8379,
+"sha256": "40ade81ea60f0317f89d"
+},
+"tools/gerar_man.py": {
+"bytes": 11811,
+"sha256": "581c118f7089d09c34c6"
+},
+"tools/lib/com-leitor.mjs": {
+"bytes": 1017,
+"sha256": "71492f580d94af1bed4f"
+},
+"tools/limpar_metadados.R": {
+"bytes": 1705,
+"sha256": "7c56f87dffea426005b7"
+},
+"tools/manifesto.py": {
+"bytes": 3702,
+"sha256": "cbfefd37f617f133072e"
+},
+"tools/r_ascii.py": {
+"bytes": 2032,
+"sha256": "efcc98fa130f4fa4f4e8"
+},
+"tools/screens.py": {
+"bytes": 6703,
+"sha256": "c383e3354012956ae191"
+},
+"tools/simular_tarball.py": {
+"bytes": 6802,
+"sha256": "7ce205a79f36b33f4419"
+},
+"tools/verificar.py": {
+"bytes": 12413,
+"sha256": "6144a1dd0e1ef1c6f56d"
+},
+"tools/webr/run.mjs": {
+"bytes": 2920,
+"sha256": "83e9c6f8a8be02420292"
+}
+},
+"nota": "Manifest of the repository: every source file with its size and SHA-256, plus the full text of the small",
+"ocultos": {
+".Rbuildignore": "^.*\\.Rproj$\n^\\.Rproj\\.user$\n^renv$\n^renv\\.lock$\n^node_modules$\n^package(-lock)?\\.json$\n^srcjs$\n^tools$\n^data-raw$\n^docs$\n^references$\n^tests/webr$\n^tests/js$\n^tests/e2e$\n^__MACOSX$\n^taiga-design-system$\n^Dockerfile$\n^\\.dockerignore$\n^app\\.R$\n^dist$\n^comerHoje\\.Rcheck$\n^.*\\.tar\\.gz$\n^\\.github$\n^\\.env\\.exemplo$\n^\\.gitignore$\n^tests/sql$\n^\\.Rprofile$\n^\\.Rhistory$\n^\\.env$\n\\.DS_Store$\n^00check\\.log$\n",
+".dockerignore": "node_modules\nrenv/library\n.git\nreferences\ndocs\ntests\ntaiga-design-system\n*.db\n.Renviron\n.secrets\ndist\n",
+".env.exemplo": "# Copy to .env (Docker) or .Renviron (R). Never commit the real file.\nCOMERHOJE_DB=/data/comerhoje.db\nCOMERHOJE_TZ=America/Sao_Paulo\nCOMERHOJE_FRAMEWORK=lumen\n# Google Sheet via the sheet's own Apps Script (reads and writes) - inst/apps-script/Code.gs\nCOMERHOJE_PLANILHA_SCRIPT=https://script.google.com/macros/s/XXXX/exec\nCOMERHOJE_PLANILHA_TOKEN=troque-por-uma-senha-longa\n# or: link-shared sheet, read-only (restores the stock on a cold start)\n# COMERHOJE_PLANILHA_ID=1AbC...\n# Cloud vision (optional; only when the device is unsure)\n# COMERHOJE_VISAO_PROVEDOR=anthropic\n# COMERHOJE_VISAO_API_KEY=...\n# COMERHOJE_VISAO_MODELO=...   (a multimodal model of your provider)\n",
+".github/workflows/ci.yml": "name: ci\non: [push, pull_request]\njobs:\n  frontend-e-paridade:\n    runs-on: ubuntu-24.04\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with: { node-version: 22 }\n      - uses: actions/setup-python@v5\n        with: { python-version: \"3.12\" }\n      - run: npm ci --ignore-scripts\n      - run: node tools/build.mjs --html-ocr\n      - run: pip install playwright pillow && python -m playwright install --with-deps chromium\n      - run: python3 tools/verificar.py            # every suite; fails if any fails\n      - uses: actions/upload-artifact@v4\n        with: { name: comerhoje-html, path: inst/standalone/comerhoje.html }\n  r:\n    runs-on: ubuntu-24.04\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with: { node-version: 22 }\n      - run: npm ci --ignore-scripts && node tools/build.mjs\n      - uses: r-lib/actions/setup-r@v2\n        with: { r-version: \"4.6\" }\n      - uses: r-lib/actions/setup-r-dependencies@v2\n        with: { extra-packages: \"any::testthat, any::rcmdcheck, any::roxygen2, any::pkgload\" }\n      - run: Rscript -e 'roxygen2::roxygenise()'          # man/ and NAMESPACE from the roxygen comments\n      - run: Rscript -e 'pkgload::load_all(); testthat::test_dir(\"tests/testthat\", stop_on_failure = TRUE)'\n      # R CMD check on the built tarball (.Rbuildignore applies). Expected: 0 errors, 0 warnings, 1 NOTE\n      # (installed size: the on-device reader's OCR models in inst/app/www/ocr, ~30 MB).\n      - uses: r-lib/actions/check-r-package@v2\n        with: { args: 'c(\"--no-manual\")', error-on: '\"warning\"', check-dir: '\"check\"' }\n",
+".gitignore": ".Rproj.user\n.Rhistory\n.RData\n.Ruserdata\n.Renviron\n.secrets/\n__MACOSX/\n.DS_Store\nnode_modules/\n*.db\n*.db-wal\n*.db-shm\n# generated by `node tools/build.mjs` (OCR models: ~30 MB; rebuilt in the Docker image / before deploying)\ninst/app/www/ocr/\ndist/\n*-service-account*.json\n.env\ncomerHoje.Rcheck/\n*.tar.gz\n00check.log\n"
+}
+}

@@ -1,0 +1,30 @@
+codigo,nome_singular,nome_plural,abreviacao,tipo,fator_base
+g,grama,gramas,g,massa,1
+kg,quilo,quilos,kg,massa,1000
+ml,mililitro,mililitros,mL,volume,1
+l,litro,litros,L,volume,1000
+un,unidade,unidades,un,contagem,1
+dz,dúzia,dúzias,dz,contagem,12
+c_sopa,colher de sopa,colheres de sopa,c. sopa,volume,15
+c_sobremesa,colher de sobremesa,colheres de sobremesa,c. sobrem.,volume,10
+c_cha,colher de chá,colheres de chá,c. chá,volume,5
+c_cafe,colher de café,colheres de café,c. café,volume,2.5
+xic,xícara (chá),xícaras (chá),xíc.,volume,240
+copo_americano,copo americano,copos americanos,copo am.,volume,190
+copo_requeijao,copo de requeijão,copos de requeijão,copo req.,volume,250
+lata,lata,latas,lata,especifica,
+caixinha,caixinha,caixinhas,cx.,especifica,
+pacote,pacote,pacotes,pct.,especifica,
+sache,sachê,sachês,sachê,especifica,
+pote,pote,potes,pote,especifica,
+bandeja,bandeja,bandejas,bdj.,especifica,
+garrafa,garrafa,garrafas,gf.,especifica,
+tablete,tablete,tabletes,tab.,especifica,
+maco,maço,maços,maço,especifica,
+pe,pé,pés,pé,especifica,
+cabeca,cabeça,cabeças,cab.,especifica,
+dente,dente,dentes,dente,especifica,
+fatia,fatia,fatias,fatia,especifica,
+folha,folha,folhas,folha,especifica,
+pitada,pitada,pitadas,pitada,especifica,
+a_gosto,a gosto,a gosto,a gosto,qualitativa,

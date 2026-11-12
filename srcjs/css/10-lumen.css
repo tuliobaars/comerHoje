@@ -1,0 +1,109 @@
+/* Lumen (Taiga): cinematic, high-contrast, glass for what floats. Tokens from
+   taiga-design-system/lumen/lumen-tokens.css (QuantSkill daylight + cinema), prefix renamed as the
+   sheet asks (--lm- -> --ch-). Product accent: acai violet (one accent + one gradient, LUM-V-05).
+   It is not semantic green, because green means "ok" here. */
+.ch[data-framework="lumen"] {
+  --ch-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --ch-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --ch-mono-num: var(--ch-font);
+  --ch-fs: 17px; --ch-fs-sm: 14px; --ch-fs-xs: 12.5px; --ch-fs-botao: 16px; --ch-fs-botao-g: 17px; --ch-fs-nav: 14px;
+  --ch-fs-titulo: clamp(30px, 6vw, 44px); --ch-peso-titulo: 750; --ch-track-titulo: -.035em;
+  --ch-fs-display: clamp(42px, 11.2vw, 104px); --ch-track-display: -.045em;
+  --ch-fs-lede: clamp(18px, 2vw, 22px); --ch-fs-kpi: 30px;
+  --ch-fs-sobr: 13px; --ch-track-sobr: .01em; --ch-caixa-sobr: none;
+  --ch-track: -.011em; --ch-lh: 1.47;
+  --ch-r-xl: 34px; --ch-r-l: 26px; --ch-r-m: 18px; --ch-r-s: 12px;
+  --ch-r-botao: 999px; --ch-r-entrada: 14px; --ch-r-seg: 999px; --ch-r-seg-item: 999px; --ch-r-nav: 999px; --ch-r-logo: 10px;
+  --ch-controle: 44px; --ch-controle-g: 50px; --ch-gap: 14px; --ch-pad: 20px; --ch-maxw: 1120px;
+  --ch-ease: cubic-bezier(.2, .8, .2, 1); --ch-spring: cubic-bezier(.34, 1.56, .64, 1); --ch-rapido: .2s; --ch-medio: .45s;
+  --ch-glass: blur(20px) saturate(170%);
+
+  /* daylight */
+  --ch-bg: #fbfbfd; --ch-bg-2: #f5f5f7; --ch-bg-3: #ececf0;
+  --ch-card: rgba(255, 255, 255, .72); --ch-card-solid: #ffffff; --ch-entrada-bg: #ffffff; --ch-hover: rgba(0, 0, 0, .04);
+  --ch-texto: #1d1d1f; --ch-texto-2: #6e6e73; --ch-texto-3: #86868b;
+  --ch-linha: rgba(0, 0, 0, .08); --ch-linha-2: rgba(0, 0, 0, .14);
+  --ch-acento: #6d28d9; --ch-acento-hover: #5b21b6; --ch-acento-texto: #ffffff; --ch-acento-tinta: #6d28d9; --ch-acento-suave: rgba(109, 40, 217, .1);
+  --ch-grad: linear-gradient(100deg, #5b21b6 0%, #9333ea 45%, #db2777 100%);
+  --ch-bom: #1f9d55; --ch-bom-bg: rgba(52, 199, 89, .13); --ch-bom-tinta: #146c3a;
+  --ch-aviso: #d97706; --ch-aviso-bg: rgba(245, 158, 11, .16); --ch-aviso-tinta: #8f4a02;
+  --ch-ruim: #e5484d; --ch-ruim-bg: rgba(255, 59, 48, .1); --ch-ruim-tinta: #b4232a;
+  --ch-sombra-1: 0 1px 2px rgba(0, 0, 0, .04), 0 8px 24px rgba(0, 0, 0, .06);
+  --ch-sombra-2: 0 2px 6px rgba(0, 0, 0, .05), 0 30px 70px rgba(0, 0, 0, .13);
+  --ch-sombra-acento: 0 6px 20px -6px color-mix(in srgb, var(--ch-acento) 70%, transparent);
+  --ch-sombra-seg: 0 1px 3px rgba(0, 0, 0, .12);
+  --ch-topo-bg: rgba(251, 251, 253, .72); --ch-abas-bg: rgba(251, 251, 253, .78); --ch-folha-bg: rgba(255, 255, 255, .86);
+  --ch-veu: rgba(0, 0, 0, .28); --ch-nav-ativa: rgba(0, 0, 0, .06); --ch-logo-bg: var(--ch-grad);
+  --ch-aviso-caixa-bg: rgba(29, 29, 31, .92); --ch-aviso-caixa-texto: #f5f5f7;
+  color-scheme: light;
+}
+/* cinema (dark) */
+.ch[data-framework="lumen"][data-theme="dark"] {
+  --ch-bg: #000000; --ch-bg-2: #0f0f11; --ch-bg-3: #1b1b1e;
+  --ch-card: rgba(28, 28, 30, .72); --ch-card-solid: #1c1c1e; --ch-entrada-bg: #161618; --ch-hover: rgba(255, 255, 255, .06);
+  --ch-texto: #f5f5f7; --ch-texto-2: #a1a1a6; --ch-texto-3: #6e6e73;
+  --ch-linha: rgba(255, 255, 255, .1); --ch-linha-2: rgba(255, 255, 255, .18);
+  --ch-acento: #7c3aed; --ch-acento-hover: #8b5cf6; --ch-acento-texto: #ffffff; --ch-acento-tinta: #c4b5fd; --ch-acento-suave: rgba(167, 139, 250, .16);
+  --ch-grad: linear-gradient(100deg, #a78bfa 0%, #e879f9 50%, #fb7185 100%);
+  --ch-bom: #32d74b; --ch-bom-bg: rgba(50, 215, 75, .16); --ch-bom-tinta: #5ee27a;
+  --ch-aviso: #ffb340; --ch-aviso-bg: rgba(255, 159, 10, .16); --ch-aviso-tinta: #ffc266;
+  --ch-ruim: #ff6961; --ch-ruim-bg: rgba(255, 69, 58, .16); --ch-ruim-tinta: #ff8a84;
+  --ch-sombra-1: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .45);
+  --ch-sombra-2: 0 2px 6px rgba(0, 0, 0, .4), 0 30px 70px rgba(0, 0, 0, .6);
+  --ch-topo-bg: rgba(0, 0, 0, .62); --ch-abas-bg: rgba(22, 22, 23, .78); --ch-folha-bg: rgba(28, 28, 30, .9);
+  --ch-veu: rgba(0, 0, 0, .5); --ch-nav-ativa: rgba(255, 255, 255, .1);
+  --ch-aviso-caixa-bg: rgba(245, 245, 247, .95); --ch-aviso-caixa-texto: #1d1d1f;
+  color-scheme: dark;
+}
+
+/* glass only on what floats: header, tab bar, sheets (LUM-V-07), with a solid fallback */
+.ch[data-framework="lumen"] .ch-topo, .ch[data-framework="lumen"] .ch-abas-baixo, .ch[data-framework="lumen"] .ch-folha {
+  -webkit-backdrop-filter: var(--ch-glass); backdrop-filter: var(--ch-glass);
+}
+.ch[data-framework="lumen"] .ch-cartao { -webkit-backdrop-filter: blur(20px) saturate(160%); backdrop-filter: blur(20px) saturate(160%); }
+.ch[data-framework="lumen"] .ch-veu { -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .ch[data-framework="lumen"] { --ch-card: var(--ch-card-solid); --ch-topo-bg: var(--ch-bg); --ch-abas-bg: var(--ch-card-solid); --ch-folha-bg: var(--ch-card-solid); }
+}
+.ch[data-framework="lumen"] .ch-topo { border-bottom-color: transparent; }
+.ch[data-framework="lumen"] .ch-sobrancelha { color: var(--ch-texto-2); }
+
+/* gradient only on key words (LUM-V-06) */
+.ch[data-framework="lumen"] .ch-grad { background: var(--ch-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ch[data-framework="lumen"] .ch-display { font-weight: 750; }
+
+/* primary button: pill + accent glow, trailing nudge on hover */
+.ch[data-framework="lumen"] .ch-botao--primario:hover { box-shadow: 0 10px 28px -8px color-mix(in srgb, var(--ch-acento) 80%, transparent); }
+.ch[data-framework="lumen"] .ch-botao--fantasma { border-color: var(--ch-linha-2); }
+.ch[data-framework="lumen"] .ch-botao--icone { border-color: transparent; }
+.ch[data-framework="lumen"] .ch-kpi { border-radius: var(--ch-r-l); }
+.ch[data-framework="lumen"] .ch-cartao--sugestao { background: linear-gradient(160deg, var(--ch-acento-suave), transparent 60%), var(--ch-card); }
+.ch[data-framework="lumen"] .ch-tile-num { background: var(--ch-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ch[data-framework="lumen"] .ch-abas-baixo { border-top-color: var(--ch-linha); }
+
+/* ambient light: 3 slow blobs, fixed and non-interactive, switchable, frozen under reduced motion (LUM-V-08) */
+.ch[data-framework="lumen"] .ch-ambiente { display: block; position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.ch[data-framework="lumen"][data-mode="quarto"] .ch-ambiente { position: absolute; }
+.ch[data-framework="lumen"][data-ambient="off"] .ch-ambiente { display: none; }
+.ch[data-framework="lumen"] .ch-ambiente i { position: absolute; width: 60vmax; height: 60vmax; border-radius: 50%; filter: blur(90px); opacity: .22; }
+.ch[data-framework="lumen"][data-theme="dark"] .ch-ambiente i { opacity: .3; }
+.ch[data-framework="lumen"] .ch-ambiente i:nth-child(1) { background: #7c3aed; top: -25vmax; left: -15vmax; animation: ch-deriva 26s var(--ch-ease) infinite alternate; }
+.ch[data-framework="lumen"] .ch-ambiente i:nth-child(2) { background: #db2777; top: 10vmax; right: -25vmax; animation: ch-deriva 30s var(--ch-ease) infinite alternate-reverse; }
+.ch[data-framework="lumen"] .ch-ambiente i:nth-child(3) { background: #f59e0b; bottom: -30vmax; left: 10vmax; opacity: .16; animation: ch-deriva 34s var(--ch-ease) infinite alternate; }
+@keyframes ch-deriva { to { transform: translate(8vmax, 6vmax) scale(1.1); } }
+
+@media (min-width: 980px) {
+  .ch[data-framework="lumen"] .ch-hero { padding: 38px 0 40px; }
+  .ch[data-framework="lumen"] .ch-grade--inicio { grid-auto-flow: dense; }
+  .ch[data-framework="lumen"] .ch-grade--inicio .ch-cartao--use { grid-row: span 2; }
+  .ch[data-framework="lumen"] .ch-grade--inicio .ch-cartao--historia { grid-column: 1 / -1; order: 10; }
+}
+
+/* glass nav components (LUM-C-01): mode chip (Shiny | Quarto | HTML); the status only appears when it matters */
+.ch[data-framework="lumen"] .ch-modo { display: inline-flex; align-items: center; height: 26px; padding: 0 10px; border-radius: 999px;
+  border: 1px solid var(--ch-linha-2); font-size: 12px; font-weight: 600; color: var(--ch-texto-2); letter-spacing: .01em; }
+.ch[data-framework="lumen"] .ch-status { display: none; }
+.ch[data-framework="lumen"] .ch-status--pend, .ch[data-framework="lumen"] .ch-status--off { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px;
+  border-radius: 999px; background: var(--ch-aviso-bg); color: var(--ch-aviso-tinta); font-size: 12px; font-weight: 600; }
+.ch[data-framework="lumen"] .ch-status--pend .ch-mono, .ch[data-framework="lumen"] .ch-status--off .ch-mono, .ch[data-framework="lumen"] .ch-status .ch-status-fig { display: none; }
+.ch[data-framework="lumen"] .ch-status-ponto { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }

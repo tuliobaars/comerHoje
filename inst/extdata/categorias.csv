@@ -1,0 +1,16 @@
+id,nome,secao_mercado,ordem
+frutas,Frutas,Hortifrúti,1
+verduras_legumes,Verduras e legumes,Hortifrúti,2
+carnes,"Carnes, aves e suínos",Açougue,3
+peixes,Peixes e frutos do mar,Peixaria,4
+frios,Frios e embutidos,Frios e laticínios,5
+laticinios_ovos,Ovos e laticínios,Frios e laticínios,6
+padaria,Padaria,Padaria,7
+graos_farinhas,"Grãos, farinhas e castanhas",Mercearia,8
+massas,Massas,Mercearia,9
+enlatados,Enlatados e conservas,Mercearia,10
+temperos_molhos,"Temperos, molhos e condimentos",Mercearia,11
+basicos,"Óleos, açúcares e fermentos",Mercearia,12
+doces,Doces e confeitaria,Mercearia,13
+bebidas,"Café, chá e mate",Bebidas,14
+congelados,Congelados,Congelados,15

@@ -1,0 +1,213 @@
+id,nome,categoria_id,unidade_base,armazenamento,validade_padrao_dias,aberto_dias,basico,sinonimos
+abacate,Abacate,frutas,g,fruteira,5,1,0,abacate manteiga; avocado
+abacaxi,Abacaxi,frutas,g,fruteira,5,3,0,ananás
+acerola,Acerola,frutas,g,geladeira,3,,0,
+banana_prata,Banana-prata,frutas,g,fruteira,5,,0,banana prata; banana
+banana_nanica,Banana-nanica,frutas,g,fruteira,4,,0,banana nanica; banana d'água; banana-d'água; banana caturra
+goiaba,Goiaba,frutas,g,geladeira,4,,0,goiaba vermelha
+laranja,Laranja,frutas,g,fruteira,10,1,0,laranja-pera; laranja pera; laranja-lima
+limao,Limão,frutas,g,geladeira,14,2,0,limão-taiti; limão taiti; lima ácida
+limao_siciliano,Limão-siciliano,frutas,g,geladeira,14,2,0,limão siciliano
+maca,Maçã,frutas,g,geladeira,21,1,0,maçã gala; maçã fuji
+mamao,Mamão,frutas,g,fruteira,4,2,0,mamão papaia; mamão formosa; papaia
+manga,Manga,frutas,g,fruteira,4,2,0,manga palmer; manga tommy
+maracuja,Maracujá,frutas,g,fruteira,7,2,0,maracujá azedo
+melancia,Melancia,frutas,g,fruteira,10,3,0,
+melao,Melão,frutas,g,fruteira,7,3,0,melão amarelo
+morango,Morango,frutas,g,geladeira,3,,0,morangos
+tangerina,Tangerina,frutas,g,fruteira,7,,0,mexerica; bergamota; mimosa; poncã; ponkan
+uva,Uva,frutas,g,geladeira,5,,0,uva thompson; uva niágara
+abobora,Abóbora,verduras_legumes,g,despensa,30,4,0,jerimum; abóbora cabotiá; abóbora japonesa; moranga
+abobrinha,Abobrinha,verduras_legumes,g,geladeira,5,2,0,abobrinha italiana
+agriao,Agrião,verduras_legumes,g,geladeira,3,,0,
+alface,Alface,verduras_legumes,g,geladeira,5,,0,alface crespa; alface americana; alface lisa
+alho,Alho,verduras_legumes,g,despensa,60,10,0,alho branco; alho roxo; cabeça de alho; garlic
+batata,Batata,verduras_legumes,g,despensa,21,,0,batata inglesa; batata-inglesa; batata monalisa
+batata_doce,Batata-doce,verduras_legumes,g,despensa,14,,0,batata doce
+berinjela,Berinjela,verduras_legumes,g,geladeira,5,,0,beringela
+beterraba,Beterraba,verduras_legumes,g,geladeira,14,,0,
+brocolis,Brócolis,verduras_legumes,g,geladeira,4,,0,brócolis ninja; brócolis ramoso; brocolos
+cebola,Cebola,verduras_legumes,g,despensa,30,5,0,cebola branca; cebola amarela
+cebola_roxa,Cebola-roxa,verduras_legumes,g,despensa,30,5,0,cebola roxa
+cebolinha,Cebolinha,verduras_legumes,g,geladeira,5,,0,cebolinha verde
+cenoura,Cenoura,verduras_legumes,g,geladeira,14,,0,
+cheiro_verde,Cheiro-verde,verduras_legumes,g,geladeira,5,,0,cheiro verde; salsinha e cebolinha
+chuchu,Chuchu,verduras_legumes,g,geladeira,7,,0,
+coentro,Coentro,verduras_legumes,g,geladeira,4,,0,
+couve,Couve-manteiga,verduras_legumes,g,geladeira,4,,0,couve; couve manteiga
+couve_flor,Couve-flor,verduras_legumes,g,geladeira,5,,0,couve flor
+espinafre,Espinafre,verduras_legumes,g,geladeira,4,,0,spinach
+gengibre,Gengibre,verduras_legumes,g,geladeira,21,7,0,
+hortela,Hortelã,verduras_legumes,g,geladeira,4,,0,
+inhame,Inhame,verduras_legumes,g,despensa,14,,0,taro
+jilo,Jiló,verduras_legumes,g,geladeira,5,,0,
+mandioca,Mandioca,verduras_legumes,g,despensa,3,,0,aipim; macaxeira
+mandioquinha,Mandioquinha,verduras_legumes,g,geladeira,5,,0,batata-baroa; batata baroa; batata-salsa; batata salsa
+manjericao,Manjericão,verduras_legumes,g,geladeira,4,,0,basilicão; basil
+maxixe,Maxixe,verduras_legumes,g,geladeira,4,,0,
+milho_espiga,Milho (espiga),verduras_legumes,g,geladeira,2,,0,espiga de milho; milho em espiga
+pepino,Pepino,verduras_legumes,g,geladeira,6,2,0,pepino japonês
+pimenta_dedo_de_moca,Pimenta dedo-de-moça,verduras_legumes,g,geladeira,10,,0,pimenta dedo de moça; pimenta vermelha
+pimentao,Pimentão,verduras_legumes,g,geladeira,7,3,0,pimentão verde; pimentão vermelho; pimentão amarelo
+quiabo,Quiabo,verduras_legumes,g,geladeira,3,,0,
+repolho,Repolho,verduras_legumes,g,geladeira,14,5,0,repolho verde; repolho roxo
+rucula,Rúcula,verduras_legumes,g,geladeira,3,,0,
+salsinha,Salsinha,verduras_legumes,g,geladeira,5,,0,salsa crespa; salsa lisa
+tomate,Tomate,verduras_legumes,g,fruteira,5,2,0,tomate italiano; tomate débora; tomate cereja
+vagem,Vagem,verduras_legumes,g,geladeira,4,,0,
+acem,Acém,carnes,g,geladeira,3,,0,
+alcatra,Alcatra,carnes,g,geladeira,3,,0,
+contrafile,Contrafilé,carnes,g,geladeira,3,,0,contra-filé; contra filé
+costela_bovina,Costela bovina,carnes,g,geladeira,3,,0,costela de boi
+coxao_duro,Coxão duro,carnes,g,geladeira,3,,0,chã de fora
+coxao_mole,Coxão mole,carnes,g,geladeira,3,,0,chã de dentro
+cupim,Cupim,carnes,g,geladeira,3,,0,
+fraldinha,Fraldinha,carnes,g,geladeira,3,,0,
+lagarto,Lagarto,carnes,g,geladeira,3,,0,
+maminha,Maminha,carnes,g,geladeira,3,,0,maminha de alcatra
+musculo,Músculo,carnes,g,geladeira,3,,0,
+patinho,Patinho,carnes,g,geladeira,3,,0,
+picanha,Picanha,carnes,g,geladeira,3,,0,
+carne_moida,Carne moída,carnes,g,geladeira,1,,0,carne moida; moída de patinho; moída de acém
+figado_bovino,Fígado bovino,carnes,g,geladeira,1,,0,bife de fígado
+carne_de_sol,Carne de sol,carnes,g,geladeira,4,,0,carne do sertão; carne de sereno
+carne_seca,Carne-seca,carnes,g,geladeira,30,3,0,carne seca; jabá
+charque,Charque,carnes,g,despensa,90,3,0,charque bovino
+frango_inteiro,Frango inteiro,carnes,g,geladeira,2,,0,frango resfriado; galinha
+peito_frango,Peito de frango,carnes,g,geladeira,2,,0,filé de frango; filé de peito; peito de frango sem osso; chicken breast
+coxa_frango,Coxa de frango,carnes,g,geladeira,2,,0,coxa de galinha
+sobrecoxa_frango,Sobrecoxa de frango,carnes,g,geladeira,2,,0,sobrecoxa
+asa_frango,Asa de frango,carnes,g,geladeira,2,,0,coxinha da asa; meio da asa; tulipa
+moela,Moela de frango,carnes,g,geladeira,2,,0,moela
+coracao_frango,Coração de frango,carnes,g,geladeira,2,,0,coraçãozinho
+bisteca_suina,Bisteca suína,carnes,g,geladeira,3,,0,bisteca de porco; bisteca
+costelinha_suina,Costelinha suína,carnes,g,geladeira,3,,0,costela de porco; costelinha
+lombo_suino,Lombo suíno,carnes,g,geladeira,3,,0,lombo de porco; lombo
+pernil,Pernil suíno,carnes,g,geladeira,3,,0,pernil
+panceta,Panceta suína,carnes,g,geladeira,3,3,0,panceta; pancetta; panceta temperada; barriga suína; barriga de porco
+tilapia,Tilápia (filé),peixes,g,geladeira,2,,0,tilápia; filé de tilápia
+merluza,Merluza,peixes,g,geladeira,2,,0,filé de merluza
+pescada,Pescada,peixes,g,geladeira,2,,0,pescada amarela; pescada branca
+salmao,Salmão,peixes,g,geladeira,2,,0,filé de salmão
+sardinha,Sardinha fresca,peixes,g,geladeira,1,,0,sardinha
+camarao,Camarão,peixes,g,geladeira,1,,0,camarão cinza; camarão rosa
+bacalhau,Bacalhau salgado,peixes,g,geladeira,90,2,0,bacalhau
+bacon,Bacon,frios,g,geladeira,30,7,0,toucinho defumado; bacon em cubos; bacon fatiado
+linguica_toscana,Linguiça toscana,frios,g,geladeira,5,2,0,linguiça de porco; linguiça fresca
+linguica_calabresa,Linguiça calabresa,frios,g,geladeira,30,7,0,calabresa; linguiça defumada
+paio,Paio,frios,g,geladeira,30,7,0,
+presunto,Presunto,frios,g,geladeira,10,3,0,presunto cozido; presunto fatiado; fiambre
+mortadela,Mortadela,frios,g,geladeira,15,3,0,
+salame,Salame,frios,g,geladeira,60,15,0,salame italiano; salaminho; salame colonial
+peito_peru,Peito de peru,frios,g,geladeira,10,3,0,peito de peru defumado
+salsicha,Salsicha,frios,g,geladeira,15,3,0,salsicha hot dog; salsicha viena
+ovo,Ovo,laticinios_ovos,un,geladeira,21,,0,ovos; ovo de galinha; ovo branco; ovo vermelho; eggs
+leite_uht,Leite UHT,laticinios_ovos,ml,despensa,120,3,0,leite longa vida; leite de caixinha; leite integral; leite desnatado; leite semidesnatado; milk
+leite_pasteurizado,Leite pasteurizado,laticinios_ovos,ml,geladeira,4,2,0,leite de saquinho
+manteiga,Manteiga,laticinios_ovos,g,geladeira,90,30,0,manteiga com sal; manteiga sem sal; manteiga extra; butter
+margarina,Margarina,laticinios_ovos,g,geladeira,120,30,0,
+requeijao,Requeijão cremoso,laticinios_ovos,g,geladeira,60,5,0,requeijão; catupiry
+creme_de_leite,Creme de leite,laticinios_ovos,g,despensa,180,3,0,creme de leite de caixinha; creme de leite em lata
+leite_condensado,Leite condensado,laticinios_ovos,g,despensa,270,5,0,leite moça
+iogurte_natural,Iogurte natural,laticinios_ovos,g,geladeira,21,3,0,iogurte; iogurte integral
+queijo_mucarela,Queijo muçarela,laticinios_ovos,g,geladeira,30,5,0,muçarela; mussarela; muzarela; mozarela; mozzarella; queijo mussarela
+queijo_prato,Queijo prato,laticinios_ovos,g,geladeira,30,5,0,queijo lanche
+queijo_minas,Queijo minas frescal,laticinios_ovos,g,geladeira,10,4,0,queijo minas; queijo branco; minas frescal
+queijo_coalho,Queijo coalho,laticinios_ovos,g,geladeira,30,7,0,queijo de coalho
+queijo_parmesao,Queijo parmesão,laticinios_ovos,g,geladeira,90,30,0,parmesão; parmesão ralado; parmigiano
+ricota,Ricota,laticinios_ovos,g,geladeira,7,3,0,
+pao_frances,Pão francês,padaria,g,despensa,1,,0,pão de sal; pãozinho; cacetinho; pão careca
+pao_forma,Pão de forma,padaria,g,despensa,7,5,0,pão de forma tradicional; pão de forma integral
+biscoito_agua_sal,Biscoito água e sal,padaria,g,despensa,180,30,0,bolacha água e sal; cream cracker
+torrada,Torrada,padaria,g,despensa,180,30,0,torradas
+arroz_branco,Arroz branco,graos_farinhas,g,despensa,365,180,0,arroz; arroz agulhinha; arroz tipo 1; rice
+arroz_integral,Arroz integral,graos_farinhas,g,despensa,180,90,0,
+feijao_carioca,Feijão carioca,graos_farinhas,g,despensa,365,180,0,feijão; feijão carioquinha; feijão rajado
+feijao_preto,Feijão preto,graos_farinhas,g,despensa,365,180,0,
+feijao_fradinho,Feijão-fradinho,graos_farinhas,g,despensa,365,180,0,feijão fradinho; feijão-de-corda; feijão de corda; feijão macassar
+feijao_branco,Feijão branco,graos_farinhas,g,despensa,365,180,0,
+lentilha,Lentilha,graos_farinhas,g,despensa,365,180,0,
+grao_de_bico,Grão-de-bico,graos_farinhas,g,despensa,365,180,0,grão de bico
+aveia,Aveia em flocos,graos_farinhas,g,despensa,270,90,0,aveia; flocos de aveia
+canjica,Canjica de milho,graos_farinhas,g,despensa,365,180,0,canjica; milho para canjica; mungunzá; munguzá
+milho_pipoca,Milho de pipoca,graos_farinhas,g,despensa,365,180,0,milho para pipoca; pipoca
+fuba,Fubá,graos_farinhas,g,despensa,180,90,0,fubá mimoso; farinha de milho fina; farinha para polenta; polenta
+flocao_milho,Flocão de milho,graos_farinhas,g,despensa,180,90,0,flocão; farinha de milho flocada; milharina; massa para cuscuz
+farinha_mandioca,Farinha de mandioca,graos_farinhas,g,despensa,365,180,0,farinha de mesa; farinha d'água; farinha torrada; farinha de mandioca torrada
+farinha_trigo,Farinha de trigo,graos_farinhas,g,despensa,180,90,0,farinha de trigo tipo 1; trigo
+farinha_rosca,Farinha de rosca,graos_farinhas,g,despensa,180,60,0,farinha de pão
+goma_tapioca,Goma de tapioca,graos_farinhas,g,despensa,120,7,0,tapioca; massa para tapioca; goma hidratada
+polvilho_doce,Polvilho doce,graos_farinhas,g,despensa,365,180,0,
+polvilho_azedo,Polvilho azedo,graos_farinhas,g,despensa,365,180,0,
+amido_milho,Amido de milho,graos_farinhas,g,despensa,365,180,0,maisena; maizena
+amendoim,Amendoim,graos_farinhas,g,despensa,180,60,0,amendoim torrado
+castanha_caju,Castanha de caju,graos_farinhas,g,despensa,180,60,0,castanha-de-caju
+castanha_para,Castanha-do-pará,graos_farinhas,g,despensa,180,60,0,castanha-do-brasil; castanha do pará
+macarrao_espaguete,Macarrão espaguete,massas,g,despensa,365,90,0,espaguete; spaghetti
+macarrao_parafuso,Macarrão parafuso,massas,g,despensa,365,90,0,parafuso; fusilli
+macarrao_penne,Macarrão penne,massas,g,despensa,365,90,0,penne; pena
+lasanha,Massa para lasanha,massas,g,despensa,365,90,0,lasanha; massa de lasanha
+macarrao_instantaneo,Macarrão instantâneo,massas,g,despensa,270,,0,miojo; lámen; lamen
+nhoque,Nhoque,massas,g,despensa,180,3,0,nhoque de batata; gnocchi; gnocchi di patate
+molho_tomate,Molho de tomate,enlatados,g,despensa,365,3,0,molho de tomate tradicional; molho de tomate com pedaços; molho pronto; tomato sauce
+extrato_tomate,Extrato de tomate,enlatados,g,despensa,365,3,0,massa de tomate; concentrado de tomate
+milho_lata,Milho verde em conserva,enlatados,g,despensa,730,2,0,milho verde; milho em lata; milho em conserva
+ervilha_lata,Ervilha em conserva,enlatados,g,despensa,730,2,0,ervilha; ervilha em lata
+palmito,Palmito em conserva,enlatados,g,despensa,730,3,0,palmito pupunha; palmito açaí
+azeitona,Azeitona,enlatados,g,despensa,365,30,0,azeitona verde; azeitona preta
+atum_lata,Atum em lata,enlatados,g,despensa,730,2,0,atum; atum sólido; atum ralado
+sardinha_lata,Sardinha em lata,enlatados,g,despensa,730,2,0,sardinha em conserva; sardinha enlatada
+leite_coco,Leite de coco,enlatados,ml,despensa,365,3,0,leite de côco
+sal,Sal,temperos_molhos,g,despensa,1825,,1,sal refinado; sal de cozinha
+sal_grosso,Sal grosso,temperos_molhos,g,despensa,1825,,0,sal para churrasco
+pimenta_do_reino,Pimenta-do-reino,temperos_molhos,g,despensa,730,365,1,pimenta do reino; pimenta preta
+oregano,Orégano,temperos_molhos,g,despensa,365,180,1,
+louro,Louro,temperos_molhos,g,despensa,365,180,1,folha de louro; folhas de louro
+cominho,Cominho,temperos_molhos,g,despensa,365,180,1,
+colorau,Colorau,temperos_molhos,g,despensa,365,180,1,colorífico; urucum
+paprica,Páprica,temperos_molhos,g,despensa,365,180,0,páprica doce; páprica defumada; páprica picante
+canela,Canela,temperos_molhos,g,despensa,730,365,0,canela em pó; canela em pau
+cravo,Cravo-da-índia,temperos_molhos,g,despensa,730,365,0,cravo; cravo da índia
+caldo_galinha,Caldo de galinha,temperos_molhos,g,despensa,365,90,0,caldo de galinha em tablete; tablete de caldo
+shoyu,Shoyu,temperos_molhos,ml,despensa,730,180,0,molho de soja; molho shoyu; soy sauce
+molho_ingles,Molho inglês,temperos_molhos,ml,despensa,730,180,0,worcestershire
+molho_pimenta,Molho de pimenta,temperos_molhos,ml,despensa,365,180,0,pimenta líquida; hot sauce
+oleo_pimenta_crocante,Óleo de pimenta crocante,temperos_molhos,g,despensa,365,180,0,crispy chilli in oil; chili crisp; óleo de pimenta
+tempero_liquido,Tempero líquido,temperos_molhos,ml,despensa,730,180,0,liquid seasoning; tempero líquido maggi
+ketchup,Ketchup,temperos_molhos,g,despensa,365,60,0,catchup
+maionese,Maionese,temperos_molhos,g,despensa,180,30,0,
+mostarda,Mostarda,temperos_molhos,g,despensa,365,60,0,
+vinagre,Vinagre,temperos_molhos,ml,despensa,1095,365,1,vinagre de álcool; vinagre de maçã; vinagre de vinho
+azeite_dende,Azeite de dendê,temperos_molhos,ml,despensa,365,180,0,dendê; óleo de palma
+oleo_soja,Óleo de soja,basicos,ml,despensa,365,90,1,óleo; óleo vegetal; óleo de cozinha
+azeite,Azeite de oliva,basicos,ml,despensa,540,90,0,azeite; azeite extravirgem; azeite extra virgem; olive oil
+acucar_refinado,Açúcar refinado,basicos,g,despensa,730,365,1,açúcar; açúcar branco
+acucar_cristal,Açúcar cristal,basicos,g,despensa,730,365,0,
+acucar_mascavo,Açúcar mascavo,basicos,g,despensa,365,180,0,
+fermento_quimico,Fermento químico em pó,basicos,g,despensa,365,90,0,fermento em pó; fermento químico
+fermento_biologico,Fermento biológico seco,basicos,g,despensa,365,60,0,fermento biológico; fermento para pão
+doce_de_leite,Doce de leite,doces,g,despensa,180,30,0,
+goiabada,Goiabada,doces,g,despensa,365,30,0,goiabada cascão
+chocolate_po,Chocolate em pó,doces,g,despensa,365,180,0,cacau em pó
+coco_ralado,Coco ralado,doces,g,despensa,180,30,0,côco ralado
+cafe_po,Café em pó,bebidas,g,despensa,180,30,0,café; café torrado e moído
+erva_mate,Erva-mate,bebidas,g,despensa,180,60,0,erva mate; erva para chimarrão; chimarrão
+pao_de_queijo,Pão de queijo congelado,congelados,g,freezer,180,,0,pão de queijo
+polpa_fruta,Polpa de fruta congelada,congelados,g,freezer,365,,0,polpa de fruta; polpa de acerola; polpa de maracujá
+acai,Açaí (polpa),congelados,g,freezer,180,,0,açaí; polpa de açaí; creme de açaí
+ervilha_congelada,Ervilha congelada,congelados,g,freezer,365,,0,
+batata_palito,Batata palito congelada,congelados,g,freezer,365,,0,batata frita congelada
+tainha,Tainha,peixes,g,geladeira,1,,0,tainha fresca; tainha limpa; ova de tainha
+berbigao,Berbigão,peixes,g,geladeira,1,,0,berbigão limpo
+ostra,Ostra,peixes,un,geladeira,3,,0,ostras; ostra viva; ostra de florianópolis
+marisco,Marisco,peixes,g,geladeira,1,,0,mexilhão; mariscos; marisco desconchado
+marreco,Marreco,carnes,g,geladeira,2,,0,marreco inteiro
+pinhao,Pinhão,verduras_legumes,g,geladeira,20,,0,pinhões; pinhão cru
+nata,Nata,laticinios_ovos,g,geladeira,10,5,0,nata fresca; creme de leite fresco
+queijo_colonial,Queijo colonial,laticinios_ovos,g,geladeira,30,7,0,queijo serrano; queijo de colônia
+linguica_blumenau,Linguiça Blumenau,frios,g,geladeira,30,7,0,linguiça blumenau; linguiça defumada de blumenau
+chucrute,Chucrute,enlatados,g,despensa,365,14,0,repolho fermentado; sauerkraut
+pao_caseiro,Pão caseiro,padaria,g,despensa,4,,0,pão colonial; pão de casa
+cuca,Cuca,padaria,g,despensa,4,,0,cuca alemã; cuca de banana; cuca de uva
+chimia,Chimia,doces,g,despensa,180,30,0,schmier; geleia colonial
+melado,Melado,doces,g,despensa,365,60,0,melado de cana

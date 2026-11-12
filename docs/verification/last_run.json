@@ -1,0 +1,124 @@
+{
+ "quando": "2026-11-11 22:45:03 -0300",
+ "versoes": {
+  "node": "v26.13.0",
+  "python": "Python 3.9.6"
+ },
+ "suites": [
+  {
+   "suite": "build: 3 entregas a partir de srcjs/",
+   "ok": true,
+   "resumo": "1713 KB",
+   "s": 0.3,
+   "cauda": null
+  },
+  {
+   "suite": "JS: núcleo contra as fixtures",
+   "ok": true,
+   "resumo": "73",
+   "s": 0.1,
+   "cauda": null
+  },
+  {
+   "suite": "Leitor embutido no HTML: node = R (fixture)",
+   "ok": true,
+   "resumo": "6",
+   "s": 0.1,
+   "cauda": null
+  },
+  {
+   "suite": "Apps Script da planilha (simulado)",
+   "ok": true,
+   "resumo": "9",
+   "s": 0.1,
+   "cauda": null
+  },
+  {
+   "suite": "R no webR: mesmas fixtures + paridade",
+   "ok": true,
+   "resumo": "599",
+   "s": 5.0,
+   "cauda": null
+  },
+  {
+   "suite": "R CMD check no webR: Rd, usage, exemplos, ASCII",
+   "ok": true,
+   "resumo": "40",
+   "s": 2.6,
+   "cauda": null
+  },
+  {
+   "suite": "Código R só com ASCII (R CMD check)",
+   "ok": true,
+   "resumo": "20",
+   "s": 0.0,
+   "cauda": null
+  },
+  {
+   "suite": "Tarball do R CMD build (simulado)",
+   "ok": false,
+   "resumo": "ver saída",
+   "s": 0.0,
+   "cauda": [
+    "FALHOU: fora do padrão no topo do tarball (NOTE 'Non-standard files/directories'): comerhoje.db",
+    "      o .Rbuildignore desta cópia não é o do repositório (ou foi substituído). Acrescente estas linhas:",
+    "        ^comerhoje\\.db$"
+   ]
+  },
+  {
+   "suite": "man/ e NAMESPACE em dia com o roxygen",
+   "ok": true,
+   "resumo": "44",
+   "s": 0.0,
+   "cauda": null
+  },
+  {
+   "suite": "SQLite: SQL do repo_sqlite x esquema",
+   "ok": true,
+   "resumo": "13",
+   "s": 0.1,
+   "cauda": null
+  },
+  {
+   "suite": "HTML + Quarto: 2 estilos x 2 temas x 3 tamanhos",
+   "ok": true,
+   "resumo": "198",
+   "s": 33.1,
+   "cauda": null
+  },
+  {
+   "suite": "Contraste WCAG (tokens renderizados)",
+   "ok": true,
+   "resumo": "48/48",
+   "s": 1.8,
+   "cauda": null
+  },
+  {
+   "suite": "Protocolo Shiny com R real (webR)",
+   "ok": true,
+   "resumo": "10",
+   "s": 8.9,
+   "cauda": null
+  },
+  {
+   "suite": "Leitura da validade no aparelho (fotos)",
+   "ok": true,
+   "resumo": "ok",
+   "s": 25.7,
+   "cauda": null
+  },
+  {
+   "suite": "Fotos de referência sem GPS",
+   "ok": true,
+   "resumo": "6/6",
+   "s": 0
+  },
+  {
+   "suite": "Links relativos nos documentos",
+   "ok": true,
+   "resumo": "0 quebrados",
+   "s": 0,
+   "cauda": null
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="/inst/app/www/comerhoje.css">
+<script>
+// Stand-in for shiny.js: only what ShinyTransport uses (setInputValue / addCustomMessageHandler / isConnected).
+// Messages go to the R server in the parent page; the connection is switched on and off there.
+window.Shiny = {
+  _h: {},
+  shinyapp: { isConnected: () => parent.__conectado },
+  addCustomMessageHandler(nome, fn) { this._h[nome] = fn; },
+  setInputValue(nome, valor) {
+    if (nome !== "ch_msg" || !parent.__conectado) return;
+    parent.servidor.despachar(valor).then((r) => { if (parent.__conectado) this._h["ch-msg"](JSON.parse(r)); });
+  },
+};
+</script></head><body>
+<div class="ch" data-mode="shiny" data-framework="neue" data-theme="light" data-payload="ch-dados" data-instancia="bancada"></div>
+<script id="ch-dados" type="application/json"></script>
+<script>
+// payload = the same catalog as Shiny (inst/extdata/catalogo.json)
+const x = new XMLHttpRequest(); x.open("GET", "/inst/extdata/catalogo.json", false); x.send();
+document.getElementById("ch-dados").textContent = JSON.stringify({ catalogo: JSON.parse(x.responseText), recursos: { zxing: "/inst/app/www/zxing/", ocr: "/inst/app/www/ocr/" }, aparencia: { framework: "neue" } });
+</script>
+<script src="/inst/app/www/zxing/zxing-reader.js"></script>
+<script src="/inst/app/www/comerhoje.js"></script>
+</body></html>

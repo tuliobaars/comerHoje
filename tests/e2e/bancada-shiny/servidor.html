@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- Shiny protocol bench: the R server (R/*.R in webR, repo_memoria) in this page and the real front end in
+     Shiny mode in the iframe. Reloading the iframe = the phone lost the session; the server survives.
+     Serve the repository root over HTTP: python3 -m http.server, then /tests/e2e/bancada-shiny/servidor.html -->
+<meta charset="utf-8"><title>bancada: protocolo Shiny</title>
+<script type="importmap">{"imports": {"module": "./stubs-node.js", "url": "./stubs-node.js", "path": "./stubs-node.js"}}</script>
+<p id="status">carregando R…</p>
+<iframe id="cliente" style="width:393px;height:852px;border:1px solid #ccc" src="about:blank"></iframe>
+<script>
+  // fast failure for the test: a module that fails to load (404) never runs its own try/catch
+  window.__rErro = null;
+  addEventListener("error", (e) => { window.__rErro = window.__rErro || ("erro ao carregar: " + (e.message || (e.target && (e.target.src || e.target.href)) || "?")); }, true);
+  addEventListener("unhandledrejection", (e) => { window.__rErro = window.__rErro || String(e.reason && e.reason.message || e.reason); });
+</script>
+<script type="module">
+import { WebR, ChannelType } from "/node_modules/webr/dist/webr.mjs";
+const webR = new WebR({ baseUrl: "/node_modules/webr/dist/", channelType: ChannelType.PostMessage });
+await webR.init();
+const arquivos = ["tests/webr/shim.R", "inst/extdata/catalogo.json",
+  "R/core_texto.R", "R/core_datas.R", "R/core_codigos.R", "R/core_validade.R", "R/core_sync.R", "R/core_unidades.R",
+  "R/core_planejador.R", "R/operacoes.R", "R/repo_memoria.R", "R/planilha.R", "R/app.R"];
+for (const d of ["/pkg", "/pkg/tests", "/pkg/tests/webr", "/pkg/inst", "/pkg/inst/extdata", "/pkg/R"]) { try { await webR.FS.mkdir(d); } catch (e) {} }
+for (const f of arquivos) {
+  const r = await fetch("/" + f);
+  if (!r.ok) throw new Error(`${f}: HTTP ${r.status} (arquivo ausente na cópia do repositório?)`);
+  await webR.FS.writeFile("/pkg/" + f, new Uint8Array(await r.arrayBuffer()));
+}
+await webR.evalRVoid(`
+  source("/pkg/tests/webr/shim.R")
+  for (f in list.files("/pkg/R", full.names = TRUE)) sys.source(f, envir = globalenv())
+  .planilha_configurada <- function() FALSE
+  store <- repo_memoria()
+  ch_json <- function(txt) {
+    msg <- jsonlite::fromJSON(txt, simplifyVector = FALSE)
+    r <- tryCatch(ch_despachar(store, msg), error = function(e) list(ok = FALSE, erro = conditionMessage(e)))
+    as.character(jsonlite::toJSON(c(list(id = msg$id), r), auto_unbox = TRUE))
+  }`);
+window.servidor = {
+  despachar: (txt) => webR.evalRString(`ch_json(${JSON.stringify(txt)})`),
+  r: (expr) => webR.evalRString(`paste(format(${expr}), collapse = ",")`),
+};
+window.__conectado = true;
+window.conectar = (sim) => { window.__conectado = sim; const d = document.getElementById("cliente").contentDocument; d && d.dispatchEvent(new Event(sim ? "shiny:connected" : "shiny:disconnected")); };
+document.getElementById("cliente").src = "cliente.html";
+window.__rPronto = true;
+document.getElementById("status").textContent = "R pronto: " + await webR.evalRString("R.version.string");
+</script>

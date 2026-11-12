@@ -1,0 +1,78 @@
+{
+ "ean": [
+  {
+   "codigo": "7896102503814",
+   "valido": true,
+   "origem": "molho_tomate.jpeg (dígitos impressos)"
+  },
+  {
+   "codigo": "7898916348674",
+   "valido": true,
+   "origem": "porco.jpeg (decodificado do recorte)"
+  },
+  {
+   "codigo": "2065840014899",
+   "valido": true,
+   "origem": "porco2.jpeg (etiqueta de balança)"
+  },
+  {
+   "codigo": "7896102503815",
+   "valido": false,
+   "origem": "DV adulterado"
+  },
+  {
+   "codigo": "789610250381",
+   "valido": false,
+   "origem": "12 dígitos sem DV válido"
+  }
+ ],
+ "balanca": [
+  {
+   "codigo": "2065840014899",
+   "plu": "06584",
+   "precoTotal": 14.89,
+   "origem": "porco2.jpeg — etiqueta impressa: TOTAL R$ 14,89; 0,482 kg × R$ 30,90/kg"
+  },
+  {
+   "codigo": "7896102503814",
+   "plu": null,
+   "precoTotal": null,
+   "origem": "EAN comum (não começa com 2) → null"
+  }
+ ],
+ "nfce": [
+  {
+   "chave": "52060433009911002506550120000007800267301615",
+   "valida": true,
+   "uf": "52",
+   "modelo": "55",
+   "origem": "exemplo da documentação da NF-e (confirma o cálculo do DV)"
+  },
+  {
+   "chave": "52060433009911002506550120000007800267301614",
+   "valida": false,
+   "origem": "mesmo exemplo com DV alterado"
+  },
+  {
+   "chave": "https://sat.sef.sc.gov.br/nfce/consulta?p=42261104820467000190650010000123451000123456|2|1|1|abcdef",
+   "valida": true,
+   "uf": "SC",
+   "modelo": "65",
+   "numero": "12345",
+   "origem": "SINTÉTICA: URL no formato do QR da SEFAZ-SC; DV calculado pelo próprio algoritmo"
+  }
+ ],
+ "balanca_texto": [
+  {
+   "texto": "FANCETA EL CORTE KG TENPE\nRADA RESFRIADO\nDATA PESAGEH:06/11/26 HORA:23:15\nTARA: 0,010kg(T)\nPESO LIQUIDO\n0,482kg (L) 2 065840014899\nRS/kg: 30，90\nTOTAL RS\n14.89",
+   "peso_kg": 0.482,
+   "preco_kg": 30.9,
+   "total": 14.89,
+   "consistente": true,
+   "gtins": [
+    "2065840014899"
+   ],
+   "origem": "porco2.jpeg lido pelo PaddleOCR no navegador"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+id,nome,tipo,porcoes
+arroz_branco,Arroz branco,base,4
+feijao_carioca,Feijão carioca,base,8
+bife_acebolado,Bife acebolado,mistura,2
+frango_grelhado,Filé de frango grelhado,mistura,2
+ovos_mexidos,Ovos mexidos,mistura,1
+farofa,Farofa simples,guarnicao,4
+salada_alface_tomate,Salada de alface e tomate,salada,2
+couve_refogada,Couve refogada,guarnicao,3
+vinagrete,Vinagrete,salada,4
+nhoque_ao_sugo,Nhoque ao sugo,prato_unico,2
+panceta_assada,Panceta assada com batatas,prato_unico,3
+omelete_queijo,Omelete de queijo,prato_unico,1
+cuscuz_nordestino,Cuscuz nordestino,cafe_lanche,2
+tapioca_coalho,Tapioca com queijo coalho,cafe_lanche,1
+strogonoff_frango,Strogonoff de frango,mistura,4
+macarrao_alho_oleo,Macarrão alho e óleo,prato_unico,2
+pure_batata,Purê de batata,guarnicao,4
+vitamina_banana,Vitamina de banana,cafe_lanche,2
+caldo_verde,Caldo verde,prato_unico,4
+pao_com_ovo,Pão na chapa com ovo,cafe_lanche,1
+tainha_assada,Tainha assada,prato_unico,3
+pinhao_cozido,Pinhão cozido,cafe_lanche,4
+berbigao_ensopado,Berbigão ensopado,mistura,3

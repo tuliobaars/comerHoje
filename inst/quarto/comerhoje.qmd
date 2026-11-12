@@ -1,0 +1,25 @@
+---
+title: "comerHoje: a cozinha da casa"
+subtitle: "Estoque, validades e plano de refeições"
+lang: pt-BR
+format:
+  html:
+    embed-resources: true
+    page-layout: full
+    include-in-header: _comerhoje-head.html
+    include-after-body: _comerhoje-body.html
+---
+
+Este documento traz o **comerHoje** inteiro, que funciona sem servidor. Os dados ficam neste
+navegador. Para levar os dados entre aparelhos, use a Planilha Google (Ajustes → Planilha Google).
+
+## Como a casa usa
+
+1. Quando chega do mercado, **escaneie a validade** de cada embalagem (ou digite).
+2. Ao abrir um molho, leite ou frios, toque em **Abri**: muitos rótulos dizem "após aberto, consumir em até 3 dias".
+3. O **Início** mostra o que vence antes e sugere um prato que aproveita esses itens.
+
+## O aplicativo
+
+O aplicativo aparece logo abaixo. Para colocá-lo no meio do texto, troque o `include-after-body` por um
+bloco `comerHoje::quarto_block()`.

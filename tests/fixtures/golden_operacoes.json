@@ -1,0 +1,498 @@
+{
+ "nota": "Gerado por tools/gerar_fixtures.mjs a partir de srcjs/app/20-loja.js (referência). R/operacoes.R deve chegar ao mesmo estado.",
+ "fuso": "America/Sao_Paulo",
+ "ops": [
+  {
+   "id": "op01",
+   "op": "lote.salvar",
+   "t": "2026-11-10T12:15:00.000Z",
+   "args": {
+    "lote": {
+     "id": "L1",
+     "ingrediente_id": "panceta",
+     "descricao": "Panceta El Corte",
+     "quantidade": 482,
+     "local": "geladeira",
+     "validade": "2027-01-19",
+     "validade_origem": "rotulo",
+     "preco_total": 14.89,
+     "gtin": "2065840014899",
+     "origem": "scan_balanca",
+     "data_compra": "2026-11-10"
+    }
+   }
+  },
+  {
+   "id": "op02",
+   "op": "lote.salvar",
+   "t": "2026-11-10T12:15:00.000Z",
+   "args": {
+    "lote": {
+     "id": "L2",
+     "ingrediente_id": "molho_tomate",
+     "quantidade": 240,
+     "validade": "2027-03-31",
+     "validade_origem": "rotulo",
+     "preco_total": 4.49,
+     "origem": "scan_rotulo"
+    }
+   }
+  },
+  {
+   "id": "op03",
+   "op": "lote.abrir",
+   "t": "2026-11-10T13:15:00.000Z",
+   "args": {
+    "id": "L2",
+    "data": "2026-11-10"
+   }
+  },
+  {
+   "id": "op04",
+   "op": "lote.baixar",
+   "t": "2026-11-11T01:15:00.000Z",
+   "args": {
+    "id": "L2",
+    "quantidade": 120,
+    "tipo": "consumo",
+    "validade_efetiva": "2026-11-13"
+   }
+  },
+  {
+   "id": "op05",
+   "op": "lote.baixar",
+   "t": "2026-11-11T02:15:00.000Z",
+   "args": {
+    "id": "L1",
+    "quantidade": 200,
+    "tipo": "consumo",
+    "validade_efetiva": "2027-01-19",
+    "refeicao_id": "2026-11-11:jantar"
+   }
+  },
+  {
+   "id": "op06",
+   "op": "lote.salvar",
+   "t": "2026-11-11T03:15:00.000Z",
+   "args": {
+    "lote": {
+     "id": "L3",
+     "ingrediente_id": "alface",
+     "quantidade": 300,
+     "local": "geladeira",
+     "validade": null,
+     "validade_origem": "estimada",
+     "preco_total": 3.5,
+     "data_compra": "2026-11-05"
+    }
+   }
+  },
+  {
+   "id": "op07",
+   "op": "lote.baixar",
+   "t": "2026-11-11T04:15:00.000Z",
+   "args": {
+    "id": "L3",
+    "quantidade": 300,
+    "tipo": "descarte",
+    "motivo": "estragou"
+   }
+  },
+  {
+   "id": "op08",
+   "op": "lote.mover",
+   "t": "2026-11-11T05:15:00.000Z",
+   "args": {
+    "id": "L1",
+    "local": "freezer",
+    "validade": "2027-02-08"
+   }
+  },
+  {
+   "id": "op09",
+   "op": "lote.salvar",
+   "t": "2026-11-11T06:15:00.000Z",
+   "args": {
+    "lote": {
+     "id": "L1",
+     "descricao": "Panceta (congelada)",
+     "quantidade": 282
+    }
+   }
+  },
+  {
+   "id": "op10",
+   "op": "compras.salvar",
+   "t": "2026-11-11T06:15:00.000Z",
+   "args": {
+    "item": {
+     "id": "C1",
+     "ingrediente_id": "queijo_parmesao",
+     "descricao": "Queijo parmesão",
+     "quantidade": 30,
+     "unidade": "g",
+     "origem": "plano"
+    }
+   }
+  },
+  {
+   "id": "op11",
+   "op": "compras.marcar",
+   "t": "2026-11-11T07:15:00.000Z",
+   "args": {
+    "id": "C1",
+    "comprado": true
+   }
+  },
+  {
+   "id": "op12",
+   "op": "compras.salvar",
+   "t": "2026-11-11T07:15:00.000Z",
+   "args": {
+    "item": {
+     "id": "C2",
+     "descricao": "Papel-toalha",
+     "origem": "manual"
+    }
+   }
+  },
+  {
+   "id": "op13",
+   "op": "compras.excluir",
+   "t": "2026-11-11T08:15:00.000Z",
+   "args": {
+    "id": "C2"
+   }
+  },
+  {
+   "id": "op14",
+   "op": "plano.salvar",
+   "t": "2026-11-11T09:15:00.000Z",
+   "args": {
+    "plano": {
+     "id": "P1",
+     "inicio": "2026-11-11",
+     "fim": "2026-11-12",
+     "metodo": "guloso",
+     "pessoas": 2,
+     "refeicoes": [
+      {
+       "id": "2026-11-11:jantar",
+       "data": "2026-11-11",
+       "refeicao": "jantar",
+       "receita_id": "nhoque_ao_sugo",
+       "status": "feito",
+       "usa": [
+        "L2"
+       ]
+      },
+      {
+       "id": "2026-11-12:almoco",
+       "data": "2026-11-12",
+       "refeicao": "almoco",
+       "receita_id": "panceta_assada",
+       "status": "planejado",
+       "usa": [
+        "L1"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "op15",
+   "op": "refeicao.marcar",
+   "t": "2026-11-11T10:15:00.000Z",
+   "args": {
+    "id": "2026-11-11:jantar",
+    "status": "feito"
+   }
+  },
+  {
+   "id": "op16",
+   "op": "sobra.salvar",
+   "t": "2026-11-11T10:15:00.000Z",
+   "args": {
+    "sobra": {
+     "id": "S1",
+     "receita_id": "nhoque_ao_sugo",
+     "descricao": "Nhoque ao sugo",
+     "porcoes": 2,
+     "feita_em": "2026-11-11",
+     "validade": "2026-11-14"
+    }
+   }
+  },
+  {
+   "id": "op17",
+   "op": "sobra.baixar",
+   "t": "2026-11-11T11:15:00.000Z",
+   "args": {
+    "id": "S1",
+    "porcoes": 2,
+    "tipo": "consumo"
+   }
+  },
+  {
+   "id": "op18",
+   "op": "config.salvar",
+   "t": "2026-11-11T11:15:00.000Z",
+   "args": {
+    "chave": "pessoas",
+    "valor": 3
+   }
+  },
+  {
+   "id": "op19",
+   "op": "produto.salvar",
+   "t": "2026-11-11T12:15:00.000Z",
+   "args": {
+    "gtin": "7896102503814",
+    "ingrediente_id": "molho_tomate",
+    "descricao": "Molho Heinz",
+    "qtd_embalagem": 240
+   }
+  },
+  {
+   "id": "op20",
+   "op": "sinonimo.aprender",
+   "t": "2026-11-11T12:15:00.000Z",
+   "args": {
+    "termo": "elcorte",
+    "ingrediente_id": "panceta"
+   }
+  },
+  {
+   "id": "op21",
+   "op": "lote.excluir",
+   "t": "2026-11-11T13:15:00.000Z",
+   "args": {
+    "id": "L3"
+   }
+  },
+  {
+   "id": "op22",
+   "op": "lote.baixar",
+   "t": "2026-11-11T23:15:00.000Z",
+   "args": {
+    "id": "L2",
+    "quantidade": 999,
+    "tipo": "consumo",
+    "validade_efetiva": "2026-11-13"
+   }
+  }
+ ],
+ "esperado": {
+  "lotes": [
+   {
+    "status": "ativo",
+    "excluido": 0,
+    "local": "freezer",
+    "validade_origem": "estimada",
+    "origem": "scan_balanca",
+    "id": "L1",
+    "ingrediente_id": "panceta",
+    "descricao": "Panceta (congelada)",
+    "quantidade": 282,
+    "validade": "2027-02-08",
+    "preco_total": 14.89,
+    "gtin": "2065840014899",
+    "data_compra": "2026-11-10",
+    "quantidade_inicial": 482,
+    "criado_em": "2026-11-10T12:15:00.000Z",
+    "atualizado_em": "2026-11-11T06:15:00.000Z"
+   },
+   {
+    "status": "consumido",
+    "excluido": 0,
+    "local": "geladeira",
+    "validade_origem": "rotulo",
+    "origem": "scan_rotulo",
+    "id": "L2",
+    "ingrediente_id": "molho_tomate",
+    "quantidade": 0,
+    "validade": "2027-03-31",
+    "preco_total": 4.49,
+    "quantidade_inicial": 240,
+    "criado_em": "2026-11-10T12:15:00.000Z",
+    "atualizado_em": "2026-11-11T23:15:00.000Z",
+    "aberto_em": "2026-11-10"
+   },
+   {
+    "status": "descartado",
+    "excluido": 1,
+    "local": "geladeira",
+    "validade_origem": "estimada",
+    "origem": "manual",
+    "id": "L3",
+    "ingrediente_id": "alface",
+    "quantidade": 0,
+    "validade": null,
+    "preco_total": 3.5,
+    "data_compra": "2026-11-05",
+    "quantidade_inicial": 300,
+    "criado_em": "2026-11-11T03:15:00.000Z",
+    "atualizado_em": "2026-11-11T13:15:00.000Z"
+   }
+  ],
+  "movimentos": [
+   {
+    "id": "op01:e",
+    "lote_id": "L1",
+    "tipo": "entrada",
+    "quantidade": 482,
+    "motivo": null,
+    "valor_estimado": 14.89,
+    "a_tempo": null,
+    "criado_em": "2026-11-10T12:15:00.000Z"
+   },
+   {
+    "id": "op02:e",
+    "lote_id": "L2",
+    "tipo": "entrada",
+    "quantidade": 240,
+    "motivo": null,
+    "valor_estimado": 4.49,
+    "a_tempo": null,
+    "criado_em": "2026-11-10T12:15:00.000Z"
+   },
+   {
+    "id": "op04:b",
+    "lote_id": "L2",
+    "tipo": "consumo",
+    "quantidade": -120,
+    "motivo": null,
+    "valor_estimado": 2.25,
+    "refeicao_id": null,
+    "a_tempo": true,
+    "criado_em": "2026-11-11T01:15:00.000Z"
+   },
+   {
+    "id": "op05:b",
+    "lote_id": "L1",
+    "tipo": "consumo",
+    "quantidade": -200,
+    "motivo": null,
+    "valor_estimado": 6.18,
+    "refeicao_id": "2026-11-11:jantar",
+    "a_tempo": true,
+    "criado_em": "2026-11-11T02:15:00.000Z"
+   },
+   {
+    "id": "op06:e",
+    "lote_id": "L3",
+    "tipo": "entrada",
+    "quantidade": 300,
+    "motivo": null,
+    "valor_estimado": 3.5,
+    "a_tempo": null,
+    "criado_em": "2026-11-11T03:15:00.000Z"
+   },
+   {
+    "id": "op07:b",
+    "lote_id": "L3",
+    "tipo": "descarte",
+    "quantidade": -300,
+    "motivo": "estragou",
+    "valor_estimado": 3.5,
+    "refeicao_id": null,
+    "a_tempo": null,
+    "criado_em": "2026-11-11T04:15:00.000Z"
+   },
+   {
+    "id": "op22:b",
+    "lote_id": "L2",
+    "tipo": "consumo",
+    "quantidade": -120,
+    "motivo": null,
+    "valor_estimado": 2.25,
+    "refeicao_id": null,
+    "a_tempo": true,
+    "criado_em": "2026-11-11T23:15:00.000Z"
+   }
+  ],
+  "compras": [
+   {
+    "comprado": 1,
+    "excluido": 0,
+    "id": "C1",
+    "ingrediente_id": "queijo_parmesao",
+    "descricao": "Queijo parmesão",
+    "quantidade": 30,
+    "unidade": "g",
+    "origem": "plano",
+    "atualizado_em": "2026-11-11T07:15:00.000Z"
+   },
+   {
+    "comprado": 0,
+    "excluido": 1,
+    "id": "C2",
+    "descricao": "Papel-toalha",
+    "origem": "manual",
+    "atualizado_em": "2026-11-11T08:15:00.000Z"
+   }
+  ],
+  "plano": {
+   "id": "P1",
+   "inicio": "2026-11-11",
+   "fim": "2026-11-12",
+   "metodo": "guloso",
+   "pessoas": 2,
+   "refeicoes": [
+    {
+     "id": "2026-11-11:jantar",
+     "data": "2026-11-11",
+     "refeicao": "jantar",
+     "receita_id": "nhoque_ao_sugo",
+     "status": "feito",
+     "usa": [
+      "L2"
+     ]
+    },
+    {
+     "id": "2026-11-12:almoco",
+     "data": "2026-11-12",
+     "refeicao": "almoco",
+     "receita_id": "panceta_assada",
+     "status": "planejado",
+     "usa": [
+      "L1"
+     ]
+    }
+   ],
+   "criado_em": "2026-11-11T09:15:00.000Z"
+  },
+  "sobras": [
+   {
+    "status": "consumida",
+    "excluido": 0,
+    "local": "geladeira",
+    "id": "S1",
+    "receita_id": "nhoque_ao_sugo",
+    "descricao": "Nhoque ao sugo",
+    "porcoes": 0,
+    "feita_em": "2026-11-11",
+    "validade": "2026-11-14",
+    "atualizado_em": "2026-11-11T11:15:00.000Z"
+   }
+  ],
+  "produtos": {
+   "7896102503814": {
+    "ingrediente_id": "molho_tomate",
+    "descricao": "Molho Heinz",
+    "qtd_embalagem": 240
+   }
+  },
+  "aprendidos": {
+   "elcorte": "panceta"
+  },
+  "config": {
+   "pessoas": 3
+  }
+ },
+ "erros": {
+  "lote_inexistente": "lote inexistente: nao-existe",
+  "descarte_sem_motivo": "descarte precisa de motivo"
+ }
+}

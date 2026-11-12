@@ -1,0 +1,11 @@
+node_modules
+renv/library
+.git
+references
+docs
+tests
+taiga-design-system
+*.db
+.Renviron
+.secrets
+dist

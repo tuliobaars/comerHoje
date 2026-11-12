@@ -1,0 +1,49 @@
+ingrediente_id,unidade,qtd_base,observacao
+alho,dente,5,dente médio
+alho,cabeca,50,~10 dentes
+cebola,un,150,média
+cebola_roxa,un,150,média
+tomate,un,120,médio
+batata,un,150,média
+batata_doce,un,200,média
+cenoura,un,120,média
+beterraba,un,150,média
+pimentao,un,150,médio
+abobrinha,un,250,média
+berinjela,un,300,média
+chuchu,un,300,médio
+pepino,un,200,médio
+limao,un,70,limão-taiti médio
+laranja,un,180,média
+banana_prata,un,90,média
+banana_nanica,un,120,média
+maca,un,150,média
+abacate,un,400,médio
+alface,pe,300,pé médio
+cheiro_verde,maco,80,maço de feira
+couve,maco,200,maço de feira
+coentro,maco,50,maço de feira
+pao_frances,un,50,padrão de padaria
+pao_forma,fatia,25,
+arroz_branco,xic,190,cru
+feijao_carioca,xic,180,cru
+feijao_preto,xic,180,cru
+farinha_trigo,xic,120,peneirada
+farinha_mandioca,xic,150,
+acucar_refinado,xic,180,
+acucar_refinado,c_sopa,12,
+aveia,c_sopa,6,
+sal,c_cha,6,
+sal,pitada,0.5,
+manteiga,c_sopa,14,
+manteiga,tablete,200,
+leite_condensado,lata,395,lata/caixinha padrão
+creme_de_leite,caixinha,200,caixinha padrão
+queijo_mucarela,fatia,20,
+queijo_prato,fatia,20,
+presunto,fatia,15,
+ketchup,c_sopa,15,
+mostarda,c_sopa,15,
+maionese,c_sopa,15,
+louro,folha,0.2,
+ostra,dz,12,dúzia

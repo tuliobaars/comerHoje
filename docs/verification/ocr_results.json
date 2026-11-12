@@ -1,0 +1,165 @@
+{
+ "geladeira.jpeg": {
+  "tamanho": [
+   4284,
+   5712
+  ],
+  "orientacao_exif": 6,
+  "gps_tags": 13,
+  "ocr_full": "",
+  "t_full_s": 1.38,
+  "parse_full": {
+   "validade": null,
+   "confianca": 0,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  "ean_full": []
+ },
+ "leite.jpeg": {
+  "tamanho": [
+   3024,
+   4032
+  ],
+  "orientacao_exif": 6,
+  "gps_tags": 13,
+  "ocr_full": "© | Piracanjuba",
+  "t_full_s": 1.13,
+  "parse_full": {
+   "validade": null,
+   "confianca": 0,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  "roi": {
+   "rot": 0,
+   "ocr": "190327 ay | Lov Sci ‘f} | © been? » aa!",
+   "parse": {
+    "validade": "2027-03-19",
+    "confianca": 0.25,
+    "fabricacao": null,
+    "pesagem": null
+   },
+   "t_s": 0.23
+  },
+  "ean_full": []
+ },
+ "molho_tomate.jpeg": {
+  "tamanho": [
+   3024,
+   4032
+  ],
+  "orientacao_exif": 6,
+  "gps_tags": 13,
+  "ocr_full": "",
+  "t_full_s": 1.27,
+  "parse_full": {
+   "validade": null,
+   "confianca": 0,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  "roi": {
+   "rot": 0,
+   "ocr": "URL GS e0e7 | Cpe Fe “, 4",
+   "parse": {
+    "validade": null,
+    "confianca": 0,
+    "fabricacao": null,
+    "pesagem": null
+   },
+   "t_s": 0.2
+  },
+  "ean_full": [],
+  "ean_roi": []
+ },
+ "nhoque.jpeg": {
+  "tamanho": [
+   3024,
+   4032
+  ],
+  "orientacao_exif": 6,
+  "gps_tags": 13,
+  "ocr_full": "Yo en OH | oust | gOOTTE ay | a tL | 4p | j LNOSTRE eiesrorsreane | GNOCCHI»: PATATE | ¢",
+  "t_full_s": 1.51,
+  "parse_full": {
+   "validade": null,
+   "confianca": 0,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  "roi": {
+   "rot": 0,
+   "ocr": "ao a ea | ~~ Val.: 26906 2027... | » Lote: L¥300p | ' Faby: 16Gb me # | ay 27 70 20288 :",
+   "parse": {
+    "validade": null,
+    "confianca": 0,
+    "fabricacao": null,
+    "pesagem": null
+   },
+   "t_s": 0.33
+  },
+  "ean_full": []
+ },
+ "porco.jpeg": {
+  "tamanho": [
+   3024,
+   4032
+  ],
+  "orientacao_exif": 6,
+  "gps_tags": 13,
+  "ocr_full": "ERADA | i¢ be TEE SUINO SEM | { Cc y | Ass) DE SOLUCAO DE AGUA, SAL E ADITIVOS | \"fl iD0 pe agua 10%, sal, agucar, chimichurr, | at igentico a0 de cebola, aroma",
+  "t_full_s": 3.17,
+  "parse_full": {
+   "validade": null,
+   "confianca": 0,
+   "fabricacao": "2026-10-19",
+   "pesagem": null
+  },
+  "roi": {
+   "rot": 0,
+   "ocr": "Fab: 19/10'2026 | Val: 19/01'2027 | _ Lote:1019",
+   "parse": {
+    "validade": "2027-01-19",
+    "confianca": 0.9,
+    "fabricacao": "2026-10-19",
+    "pesagem": null
+   },
+   "t_s": 0.46
+  },
+  "ean_full": [],
+  "ean_roi": [
+   "7898916348674"
+  ]
+ },
+ "porco2.jpeg": {
+  "tamanho": [
+   4032,
+   3024
+  ],
+  "orientacao_exif": 3,
+  "gps_tags": 13,
+  "ocr_full": "a | 4 fi il é 7) Bein | WAN oaIndI7 OS3d | (1) 84070°O :baUl | $a { i: | eee =UH0H O2/1F/90:HINUSId YLUG | | lal 7 | | ee aun o> 1809 1 VSO",
+  "t_full_s": 1.63,
+  "parse_full": {
+   "validade": null,
+   "confianca": 0,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  "roi": {
+   "rot": 180,
+   "ocr": "a t j | nee ‘ | path PESAGEN: 06/11/26 | HORA: 23:15 | 1 TARA: 0,010ks(T) HT | | | oe | -~ U,482kat(L)  Sogseaolo1 asgg | RS/kss 30,92 | | _ TOTAL RS 77 pa | i ",
+   "parse": {
+    "validade": null,
+    "confianca": 0,
+    "fabricacao": null,
+    "pesagem": "2026-11-06"
+   },
+   "t_s": 0.93
+  },
+  "ean_full": [
+   "2065840014899"
+  ]
+ }
+}

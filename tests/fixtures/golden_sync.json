@@ -1,0 +1,456 @@
+{
+ "campos": [
+  "item",
+  "quantidade",
+  "unidade",
+  "local",
+  "validade",
+  "aberto_em",
+  "preco_total",
+  "excluido"
+ ],
+ "vetores": [
+  {
+   "texto": "",
+   "fnv1a": "811c9dc5"
+  },
+  {
+   "texto": "a",
+   "fnv1a": "e40c292c"
+  },
+  {
+   "texto": "comerHoje",
+   "fnv1a": "0391612d"
+  },
+  {
+   "texto": "Feijão, açaí e pinhão",
+   "fnv1a": "bc6ec055"
+  },
+  {
+   "texto": "molho\u001f240\u001fg",
+   "fnv1a": "92b56b39"
+  },
+  {
+   "texto": "Molho de tomate\u001f240\u001fg\u001fgeladeira\u001f2027-03-31\u001f\u001f4.49\u001f0",
+   "fnv1a": "886a939e"
+  }
+ ],
+ "casos": [
+  {
+   "nome": "novo no app",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [],
+   "base": [],
+   "esperado": {
+    "push": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "novo na planilha",
+   "local": [],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [],
+   "esperado": {
+    "pull": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "mesmo id nos dois, iguais",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [],
+   "esperado": {
+    "nada": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "mesmo id nos dois, diferentes",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 120,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [],
+   "esperado": {
+    "conflito_remoto": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "ninguém mudou",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "nada": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "só o app mudou",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 120,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "push": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "só a planilha mudou (edição manual)",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": "1",
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "pull": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "os dois mudaram igual",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 120,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 120,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "nada": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "os dois mudaram diferente",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 120,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 60,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "conflito_remoto": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "apagado na planilha, app igual à base",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "excluir_local": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "apagado na planilha, app mudou",
+   "local": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 120,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "remoto": [],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "push": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "sumiu do app (compactação)",
+   "local": [],
+   "remoto": [
+    {
+     "id": "a",
+     "item": "Molho de tomate",
+     "quantidade": 240,
+     "unidade": "g",
+     "local": "geladeira",
+     "validade": "2027-03-31",
+     "aberto_em": "",
+     "preco_total": 4.49,
+     "excluido": 0
+    }
+   ],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "pull": [
+     "a"
+    ]
+   }
+  },
+  {
+   "nome": "sumiu dos dois",
+   "local": [],
+   "remoto": [],
+   "base": [
+    {
+     "id": "a",
+     "hash": "886a939e"
+    }
+   ],
+   "esperado": {
+    "esquecer": [
+     "a"
+    ]
+   }
+  }
+ ]
+}

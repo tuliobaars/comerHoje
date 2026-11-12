@@ -1,0 +1,366 @@
+{
+ "hoje": "2026-11-11",
+ "nota": "Textos 'gt_*' = transcrição fiel do rótulo; 'ocr_*' = saída real do Tesseract 5.3.4 (eng) no recorte; 'pp_*' = saída real do PaddleOCR PP-OCRv4 (o leitor do app) nas fotos de referência; 'sint_*' = sintéticos. null = o app pede a data (prefere perguntar a errar).",
+ "casos": [
+  {
+   "id": "gt_leite",
+   "texto": "VAL./LOTE:\n190327 01:05 10\n6292M9",
+   "validade": "2027-03-19",
+   "fabricacao": null,
+   "pesagem": null,
+   "conf_min": 0.5,
+   "conf_max": 0.8
+  },
+  {
+   "id": "ocr_leite",
+   "texto": "190327 ay\nLov Sci 'f}\n© been? » aa!",
+   "validade": "2027-03-19",
+   "fabricacao": null,
+   "pesagem": null,
+   "conf_min": 0.0,
+   "conf_max": 0.49
+  },
+  {
+   "id": "gt_molho",
+   "texto": "VAL:03/2027\nL:31 12:06 M3-2",
+   "validade": "2027-03-31",
+   "fabricacao": null,
+   "pesagem": null,
+   "conf_min": 0.8,
+   "conf_max": 1.0
+  },
+  {
+   "id": "ocr_molho",
+   "texto": "upLcsv202t\n31 le} 0S 3-2 J",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "gt_nhoque",
+   "texto": "Val.: 29 06 2027\nLote: L5300P\nFab.: 18:52 27 10\n27 10 2025",
+   "validade": "2027-06-29",
+   "fabricacao": "2025-10-27",
+   "pesagem": null,
+   "conf_min": 0.8,
+   "conf_max": 1.0
+  },
+  {
+   "id": "ocr_nhoque_a",
+   "texto": "~~ Val.: 26906 2027...\n» Lote: L¥300p\n' Faby: 16Gb me #\nay 27 70 20288 :",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "ocr_nhoque_b",
+   "texto": "a Mal 20 '06:2027.. _ ye a\n* Pabi1652.2710 0 (\n2h 27 90 2028 ay",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "gt_panceta",
+   "texto": "Fab: 19/10/2026\nVal: 19/01/2027\nLote:1019",
+   "validade": "2027-01-19",
+   "fabricacao": "2026-10-19",
+   "pesagem": null,
+   "conf_min": 0.8,
+   "conf_max": 1.0
+  },
+  {
+   "id": "ocr_panceta",
+   "texto": "Fab: 19/10'2026\nVal: 19/01'2027\n_ Lote:1019",
+   "validade": "2027-01-19",
+   "fabricacao": "2026-10-19",
+   "pesagem": null,
+   "conf_min": 0.8,
+   "conf_max": 1.0
+  },
+  {
+   "id": "ocr_balanca",
+   "texto": "path PESAGEN: 06/11/26\nHORA: 23:15\n1 TARA: 0,010ks(T) HT\n-~ U,482kat(L)  Sogseaolo1 asgg\nRS/kss 30,92",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": "2026-11-06"
+  },
+  {
+   "id": "sint_consumir",
+   "texto": "CONSUMIR ATÉ 05.12.26",
+   "validade": "2026-12-05",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_mes_nome",
+   "texto": "VALIDADE: 15 MAR 2027",
+   "validade": "2027-03-15",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_v_mes_ano",
+   "texto": "V: 12/2026",
+   "validade": "2026-12-31",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_iso",
+   "texto": "EXP 2027-03-19",
+   "validade": "2027-03-19",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_sem_ancora",
+   "texto": "19/10/2026   19/01/2027",
+   "validade": "2027-01-19",
+   "fabricacao": "2026-10-19",
+   "pesagem": null,
+   "conf_min": 0.0,
+   "conf_max": 0.6
+  },
+  {
+   "id": "sint_invalida",
+   "texto": "VAL: 31/02/2027",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_italiano",
+   "texto": "Da consumarsi preferibilmente entro: 29/06/2027",
+   "validade": "2027-06-29",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_antiga",
+   "texto": "VAL 10/2019",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_letra_O",
+   "texto": "Val: 19/01/2O27",
+   "validade": "2027-01-19",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_receita",
+   "texto": "Adicione 1/2 xícara de leite",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "sint_precos",
+   "texto": "PESO LIQUIDO 0,482kg TOTAL R$ 14,89 R$/kg 30,90",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_leite",
+   "texto": "VALJLOTE:\n19032701:0510\n6292M9",
+   "validade": "2027-03-19",
+   "fabricacao": null,
+   "pesagem": null,
+   "conf_min": 0.5,
+   "conf_max": 0.8
+  },
+  {
+   "id": "pp_leite_espaco",
+   "texto": "VALJLOTE:\n19032701:05 10\n6292M9",
+   "validade": "2027-03-19",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_leite_visao_erro",
+   "texto": "VALILOTE\n6292N9\n180327 01:05 10\nPiracanjuba\"",
+   "validade": "2027-03-18",
+   "fabricacao": null,
+   "pesagem": null,
+   "conf_min": 0.0,
+   "conf_max": 0.49
+  },
+  {
+   "id": "pp_nhoque",
+   "texto": "Val:29062027\nLote:L5300P\nFab:18:622710\n27102025",
+   "validade": "2027-06-29",
+   "fabricacao": "2025-10-27",
+   "pesagem": null,
+   "conf_min": 0.7,
+   "conf_max": 0.8
+  },
+  {
+   "id": "pp_nhoque_visao_erro",
+   "texto": "Val.:28062027",
+   "validade": "2027-06-28",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_molho_val",
+   "texto": "VAL:03/2027",
+   "validade": "2027-03-31",
+   "fabricacao": null,
+   "pesagem": null,
+   "conf_min": 0.8,
+   "conf_max": 0.9
+  },
+  {
+   "id": "pp_molho_vbl",
+   "texto": "VBL:03/2027\n113-2\n31\n12:06",
+   "validade": "2027-03-31",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_molho_vrl_hifen",
+   "texto": "VBL:03-2027",
+   "validade": "2027-03-31",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_molho_compacto",
+   "texto": "VRL:032027",
+   "validade": "2027-03-31",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_molho_visao",
+   "texto": "789612503814\nL3112:06M3-2 VAL:03/2027",
+   "validade": "2027-03-31",
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_molho_url",
+   "texto": "URL:03",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_panceta",
+   "texto": "Fab:19/10/2026\nVal: 19/01/2027\nLote:1019",
+   "validade": "2027-01-19",
+   "fabricacao": "2026-10-19",
+   "pesagem": null,
+   "conf_min": 0.85,
+   "conf_max": 1.0
+  },
+  {
+   "id": "pp_balanca",
+   "texto": "FANCETA EL CORTE KG TENPE\nRADA RESFRIADO\nDATA PESAGEH:06/11/26 HORA:23:15\nTARA: 0,010kg(T)\nPESO LIQUIDO\n0,482kg (L) 2 065840014899\nRS/kg: 30，90\nTOTAL RS\n14.89",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": "2026-11-06"
+  },
+  {
+   "id": "pp_tabela_nutricional",
+   "texto": "Valor energetico (kcal)\n42\n24",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  },
+  {
+   "id": "pp_horario_fab",
+   "texto": "Fab.:18:522710",
+   "validade": null,
+   "fabricacao": null,
+   "pesagem": null
+  }
+ ],
+ "votacao": [
+  {
+   "id": "nhoque_leituras_reais",
+   "nota": "passos reais do leitor: visão (reduzida) leu 28; zoom sem filtro leu 29 duas vezes",
+   "leituras": [
+    {
+     "validade": "2027-06-28",
+     "confianca": 0.75,
+     "peso": 0.7
+    },
+    {
+     "validade": "2027-06-29",
+     "confianca": 0.75,
+     "peso": 1
+    },
+    {
+     "validade": "2027-06-29",
+     "confianca": 0.75,
+     "peso": 1
+    }
+   ],
+   "validade": "2027-06-29",
+   "conf_min": 0.79,
+   "conf_max": 0.81,
+   "conflito": false
+  },
+  {
+   "id": "filtro_errado_nao_vence",
+   "nota": "o filtro de pontilhado fechou o 9 em 0; pesos de fidelidade evitam que duas leituras ruins vençam uma boa",
+   "leituras": [
+    {
+     "validade": "2027-06-29",
+     "confianca": 0.75,
+     "peso": 1
+    },
+    {
+     "validade": "2027-06-20",
+     "confianca": 0.9,
+     "peso": 0.6
+    },
+    {
+     "validade": "2027-06-20",
+     "confianca": 0.75,
+     "peso": 0.6
+    }
+   ],
+   "validade": "2027-06-20",
+   "conf_min": 0.0,
+   "conf_max": 0.6,
+   "conflito": true
+  },
+  {
+   "id": "concordancia",
+   "leituras": [
+    {
+     "validade": "2027-01-19",
+     "confianca": 0.9,
+     "peso": 0.7
+    },
+    {
+     "validade": "2027-01-19",
+     "confianca": 0.9,
+     "peso": 1
+    }
+   ],
+   "validade": "2027-01-19",
+   "conf_min": 0.94,
+   "conf_max": 0.96,
+   "conflito": false
+  },
+  {
+   "id": "nada",
+   "leituras": [
+    {
+     "validade": null,
+     "confianca": 0
+    }
+   ],
+   "validade": null,
+   "conf_min": 0,
+   "conf_max": 0,
+   "conflito": false
+  }
+ ]
+}

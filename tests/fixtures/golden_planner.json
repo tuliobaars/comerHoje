@@ -1,0 +1,33 @@
+{
+  "hoje": "2026-11-11",
+  "nota": "Estoque das fotos de referência. O molho foi aberto em 10/11 → validade efetiva 13/11 (aberto_dias = 3, impresso no rótulo).",
+  "ingredientes": {
+    "panceta": {"aberto_dias": 3}, "nhoque": {"aberto_dias": 3}, "molho_tomate": {"aberto_dias": 3},
+    "leite_uht": {"aberto_dias": 3}, "ovo": {"aberto_dias": null}, "arroz_branco": {"aberto_dias": 180},
+    "batata": {"aberto_dias": null}
+  },
+  "lotes": [
+    {"id": "L1", "ingrediente": "panceta",      "qtd": 482,  "validade": "2027-01-19"},
+    {"id": "L2", "ingrediente": "nhoque",       "qtd": 500,  "validade": "2027-06-29"},
+    {"id": "L3", "ingrediente": "molho_tomate", "qtd": 240,  "validade": "2027-03-31", "aberto_em": "2026-11-10"},
+    {"id": "L4", "ingrediente": "leite_uht",    "qtd": 1000, "validade": "2027-03-19"},
+    {"id": "L5", "ingrediente": "ovo",          "qtd": 2,    "validade": "2026-11-20"},
+    {"id": "L6", "ingrediente": "arroz_branco", "qtd": 2000, "validade": "2027-08-01"},
+    {"id": "L7", "ingrediente": "batata",       "qtd": 600,  "validade": "2026-11-25"}
+  ],
+  "receitas": [
+    {"id": "nhoque_ao_sugo",  "ingredientes": [{"id": "nhoque", "qtd": 500}, {"id": "molho_tomate", "qtd": 240}, {"id": "queijo_parmesao", "qtd": 30}]},
+    {"id": "panceta_assada",  "ingredientes": [{"id": "panceta", "qtd": 480}, {"id": "batata", "qtd": 400}]},
+    {"id": "arroz_branco",    "ingredientes": [{"id": "arroz_branco", "qtd": 200}, {"id": "alho", "qtd": 5}]},
+    {"id": "omelete",         "ingredientes": [{"id": "ovo", "qtd": 3}, {"id": "queijo_mucarela", "qtd": 40}]}
+  ],
+  "slots": [
+    {"id": "qua-jantar", "data": "2026-11-11"}, {"id": "qui-almoco", "data": "2026-11-12"},
+    {"id": "qui-jantar", "data": "2026-11-12"}, {"id": "sex-almoco", "data": "2026-11-13"}
+  ],
+  "esperado": {
+    "validade_efetiva": {"L3": "2026-11-13", "L1": "2027-01-19"},
+    "plano": ["nhoque_ao_sugo", "panceta_assada", "arroz_branco", null],
+    "compras": {"queijo_parmesao": 30, "alho": 5}
+  }
+}

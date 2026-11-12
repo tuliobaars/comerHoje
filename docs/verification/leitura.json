@@ -1,0 +1,50 @@
+{
+ "porco.jpeg": {
+  "validade": "2027-01-19",
+  "ing": "",
+  "qtd": "",
+  "preco": "",
+  "s": 4.2,
+  "ok": true
+ },
+ "nhoque.jpeg": {
+  "validade": "2027-06-29",
+  "ing": "nhoque",
+  "qtd": "500",
+  "preco": "",
+  "s": 2.8,
+  "ok": true
+ },
+ "leite.jpeg": {
+  "validade": "2027-03-19",
+  "ing": "",
+  "qtd": "",
+  "preco": "",
+  "s": 2.4,
+  "ok": true
+ },
+ "molho_tomate.jpeg": {
+  "validade": "2027-03-31",
+  "ing": "",
+  "qtd": "",
+  "preco": "",
+  "s": 1.6,
+  "ok": true
+ },
+ "porco2.jpeg": {
+  "validade": "",
+  "ing": "panceta",
+  "qtd": "482",
+  "preco": "14,89",
+  "s": 3.3,
+  "ok": true
+ },
+ "geladeira.jpeg": {
+  "validade": "",
+  "ing": "",
+  "qtd": "",
+  "preco": "",
+  "s": 2.7,
+  "ok": true
+ }
+}

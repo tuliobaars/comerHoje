@@ -1,0 +1,338 @@
+[
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "texto sobre fundo",
+  "razao": 16.28,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "texto sobre cartão",
+  "razao": 16.68,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "texto 2 sobre fundo",
+  "razao": 4.91,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "texto 2 sobre cartão",
+  "razao": 5.02,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "texto 2 sobre superfície sólida",
+  "razao": 5.07,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "rótulo do botão primário",
+  "razao": 7.1,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "link / acento sobre cartão",
+  "razao": 7.04,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "chip ok",
+  "razao": 5.79,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "chip urgente",
+  "razao": 5.86,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "chip vencido",
+  "razao": 5.67,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "chip esta semana",
+  "razao": 15.46,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "claro",
+  "par": "aviso (toast)",
+  "razao": 12.31,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "texto sobre fundo",
+  "razao": 19.29,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "texto sobre cartão",
+  "razao": 16.88,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "texto 2 sobre fundo",
+  "razao": 8.16,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "texto 2 sobre cartão",
+  "razao": 7.15,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "texto 2 sobre superfície sólida",
+  "razao": 6.61,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "rótulo do botão primário",
+  "razao": 5.7,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "link / acento sobre cartão",
+  "razao": 9.96,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "chip ok",
+  "razao": 8.21,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "chip urgente",
+  "razao": 8.63,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "chip vencido",
+  "razao": 6.78,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "chip esta semana",
+  "razao": 17.59,
+  "ok": true
+ },
+ {
+  "framework": "lumen",
+  "tema": "escuro",
+  "par": "aviso (toast)",
+  "razao": 13.85,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "texto sobre fundo",
+  "razao": 16.5,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "texto sobre cartão",
+  "razao": 18.05,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "texto 2 sobre fundo",
+  "razao": 8.83,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "texto 2 sobre cartão",
+  "razao": 9.66,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "texto 2 sobre superfície sólida",
+  "razao": 9.66,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "rótulo do botão primário",
+  "razao": 6.04,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "link / acento sobre cartão",
+  "razao": 6.04,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "chip ok",
+  "razao": 5.76,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "chip urgente",
+  "razao": 5.76,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "chip vencido",
+  "razao": 5.94,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "chip esta semana",
+  "razao": 17.23,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "claro",
+  "par": "aviso (toast)",
+  "razao": 14.27,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "texto sobre fundo",
+  "razao": 17.44,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "texto sobre cartão",
+  "razao": 16.3,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "texto 2 sobre fundo",
+  "razao": 12.55,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "texto 2 sobre cartão",
+  "razao": 11.73,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "texto 2 sobre superfície sólida",
+  "razao": 11.73,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "rótulo do botão primário",
+  "razao": 7.95,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "link / acento sobre cartão",
+  "razao": 11.37,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "chip ok",
+  "razao": 7.17,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "chip urgente",
+  "razao": 7.5,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "chip vencido",
+  "razao": 6.51,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "chip esta semana",
+  "razao": 16.73,
+  "ok": true
+ },
+ {
+  "framework": "neue",
+  "tema": "escuro",
+  "par": "aviso (toast)",
+  "razao": 16.14,
+  "ok": true
+ }
+]

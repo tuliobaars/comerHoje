@@ -1,0 +1,382 @@
+[
+ {
+  "arquivo": "lumen-claro-desktop-inicio.jpg",
+  "titulo": "Início (Lumen, claro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-claro-desktop-estoque.jpg",
+  "titulo": "Estoque (Lumen, claro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-claro-desktop-plano.jpg",
+  "titulo": "Plano da semana (Lumen, claro)",
+  "legenda": "Primeiro o que vence antes; o que falta vai para a lista de compras.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-claro-desktop-compras.jpg",
+  "titulo": "Compras (Lumen, claro)",
+  "legenda": "Lista por seção do mercado, a mesma da Planilha Google.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-claro-desktop-ajustes.jpg",
+  "titulo": "Ajustes (Lumen, claro)",
+  "legenda": "Lumen ou Neue, tema, leitura no aparelho ou IA na nuvem, planilha.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-claro-desktop-lote.jpg",
+  "titulo": "Item (folha de ações, Lumen)",
+  "legenda": "Validade do rótulo, aberto em, vale até: e as ações Usei, Abri, Congelar, Descartar.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-claro-desktop-escanear.jpg",
+  "titulo": "Escanear: validade lida no aparelho (Lumen)",
+  "legenda": "Foto real (nhoque.jpeg): “Val.: 29 06 2027” lida sem recorte; produto e quantidade pelo texto do rótulo. (O campo de data é o nativo do aparelho: num iPhone em português aparece dd/mm/aaaa; o Chromium sem interface das capturas mostra mm/dd.)",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-claro-iphone-inicio.jpg",
+  "titulo": "Início (Lumen, claro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-claro-iphone-estoque.jpg",
+  "titulo": "Estoque (Lumen, claro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-claro-iphone-plano.jpg",
+  "titulo": "Plano da semana (Lumen, claro)",
+  "legenda": "Primeiro o que vence antes; o que falta vai para a lista de compras.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-claro-iphone-compras.jpg",
+  "titulo": "Compras (Lumen, claro)",
+  "legenda": "Lista por seção do mercado, a mesma da Planilha Google.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-claro-iphone-ajustes.jpg",
+  "titulo": "Ajustes (Lumen, claro)",
+  "legenda": "Lumen ou Neue, tema, leitura no aparelho ou IA na nuvem, planilha.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-claro-iphone-lote.jpg",
+  "titulo": "Item (folha de ações, Lumen)",
+  "legenda": "Validade do rótulo, aberto em, vale até: e as ações Usei, Abri, Congelar, Descartar.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-claro-iphone-escanear.jpg",
+  "titulo": "Escanear: validade lida no aparelho (Lumen)",
+  "legenda": "Foto real (nhoque.jpeg): “Val.: 29 06 2027” lida sem recorte; produto e quantidade pelo texto do rótulo. (O campo de data é o nativo do aparelho: num iPhone em português aparece dd/mm/aaaa; o Chromium sem interface das capturas mostra mm/dd.)",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-escuro-desktop-inicio.jpg",
+  "titulo": "Início (Lumen, escuro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "escuro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-escuro-desktop-estoque.jpg",
+  "titulo": "Estoque (Lumen, escuro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "escuro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "lumen-escuro-iphone-inicio.jpg",
+  "titulo": "Início (Lumen, escuro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "escuro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "lumen-escuro-iphone-estoque.jpg",
+  "titulo": "Estoque (Lumen, escuro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "lumen",
+  "tema": "escuro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-claro-desktop-inicio.jpg",
+  "titulo": "Início (Neue, claro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-desktop-estoque.jpg",
+  "titulo": "Estoque (Neue, claro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-desktop-plano.jpg",
+  "titulo": "Plano da semana (Neue, claro)",
+  "legenda": "Primeiro o que vence antes; o que falta vai para a lista de compras.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-desktop-compras.jpg",
+  "titulo": "Compras (Neue, claro)",
+  "legenda": "Lista por seção do mercado, a mesma da Planilha Google.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-desktop-ajustes.jpg",
+  "titulo": "Ajustes (Neue, claro)",
+  "legenda": "Lumen ou Neue, tema, leitura no aparelho ou IA na nuvem, planilha.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-desktop-lote.jpg",
+  "titulo": "Item (folha de ações, Neue)",
+  "legenda": "Validade do rótulo, aberto em, vale até: e as ações Usei, Abri, Congelar, Descartar.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-desktop-escanear.jpg",
+  "titulo": "Escanear: validade lida no aparelho (Neue)",
+  "legenda": "Foto real (nhoque.jpeg): “Val.: 29 06 2027” lida sem recorte; produto e quantidade pelo texto do rótulo. (O campo de data é o nativo do aparelho: num iPhone em português aparece dd/mm/aaaa; o Chromium sem interface das capturas mostra mm/dd.)",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-desktop-comandos.jpg",
+  "titulo": "Barra de comandos (Neue, Ctrl K)",
+  "legenda": "Ir para, agir, achar um item ou pôr na lista de compras sem tirar a mão do teclado.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-claro-iphone-inicio.jpg",
+  "titulo": "Início (Neue, claro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-claro-iphone-estoque.jpg",
+  "titulo": "Estoque (Neue, claro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-claro-iphone-plano.jpg",
+  "titulo": "Plano da semana (Neue, claro)",
+  "legenda": "Primeiro o que vence antes; o que falta vai para a lista de compras.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-claro-iphone-compras.jpg",
+  "titulo": "Compras (Neue, claro)",
+  "legenda": "Lista por seção do mercado, a mesma da Planilha Google.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-claro-iphone-ajustes.jpg",
+  "titulo": "Ajustes (Neue, claro)",
+  "legenda": "Lumen ou Neue, tema, leitura no aparelho ou IA na nuvem, planilha.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-claro-iphone-lote.jpg",
+  "titulo": "Item (folha de ações, Neue)",
+  "legenda": "Validade do rótulo, aberto em, vale até: e as ações Usei, Abri, Congelar, Descartar.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-claro-iphone-escanear.jpg",
+  "titulo": "Escanear: validade lida no aparelho (Neue)",
+  "legenda": "Foto real (nhoque.jpeg): “Val.: 29 06 2027” lida sem recorte; produto e quantidade pelo texto do rótulo. (O campo de data é o nativo do aparelho: num iPhone em português aparece dd/mm/aaaa; o Chromium sem interface das capturas mostra mm/dd.)",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "claro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-escuro-desktop-inicio.jpg",
+  "titulo": "Início (Neue, escuro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "escuro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-escuro-desktop-estoque.jpg",
+  "titulo": "Estoque (Neue, escuro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "escuro",
+  "viewport": "desktop"
+ },
+ {
+  "arquivo": "neue-escuro-iphone-inicio.jpg",
+  "titulo": "Início (Neue, escuro)",
+  "legenda": "O que vence antes, uma sugestão que aproveita esses itens e o desperdício do mês.",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "escuro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "neue-escuro-iphone-estoque.jpg",
+  "titulo": "Estoque (Neue, escuro)",
+  "legenda": "Cada embalagem com a sua validade; o molho aberto passa para o topo (3 dias após aberto).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "neue",
+  "tema": "escuro",
+  "viewport": "iphone"
+ },
+ {
+  "arquivo": "comparacao-lumen-neue.jpg",
+  "titulo": "Lumen x Neue no celular",
+  "legenda": "Lumen claro, Lumen escuro, Neue claro, Neue escuro (Início).",
+  "proveniencia": "live",
+  "fonte": "inst/html/comerhoje-com-leitor.html",
+  "framework": "ambos",
+  "tema": "ambos",
+  "viewport": "iphone"
+ }
+]
